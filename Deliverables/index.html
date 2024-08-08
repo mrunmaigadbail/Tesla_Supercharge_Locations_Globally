@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunburst Chart</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+     
+
+    
+    <div id="sunburst" style="width: 100%; height: 600px;"></div>
+    <script>
+        // Fetch the JSON data and create the sunburst chart
+        fetch('sunburst_data.json')
+            .then(response => response.json())
+            .then(data => {
+                const trace = {
+                    type: 'sunburst',
+                    labels: data.labels,
+                    parents: data.parents,
+                    values: data.values,
+                    branchvalues: 'total',
+                };
+
+                const layout = {
+                    title: 'Sunburst Chart of Supercharger Locations by Country',
+                };
+
+                Plotly.newPlot('sunburst', [trace], layout);
+            })
+            .catch(error => console.error('Error fetching the JSON data:', error));
+    </script>
+</body>
+</html>
