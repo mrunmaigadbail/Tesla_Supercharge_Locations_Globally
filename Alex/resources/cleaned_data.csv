@@ -1,4 +1,4 @@
-Supercharger,Street Address,City,State,Country,Stalls,kW,Elev(m),Open Date,Latitude,Longitude
+Supercharger,Street_Address,City,State,Country,Stalls,kW,Elev_m,Open_Date,Latitude,Longitude
 "Buellton, CA",555 McMurray Rd,Buellton,CA,USA,10,150.0,114,2013-07-13,34.61456,-120.188387
 "Corning, CA",950 Hwy 99,Corning,CA,USA,6,150.0,87,2013-10-18,39.926454,-122.198393
 "Barstow, CA",2812 Lenwood Rd,Barstow,CA,USA,16,150.0,725,2012-11-19,34.849129,-117.085446

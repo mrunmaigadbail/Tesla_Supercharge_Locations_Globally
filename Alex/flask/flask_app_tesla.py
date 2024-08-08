@@ -14,7 +14,7 @@ sql = SQLHelper()
 #################################################
 
 # HTML ROUTES
-@app.route("/")
+@app.route("/home")
 def index():
     return render_template("home.html")
 
