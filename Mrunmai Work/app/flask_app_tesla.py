@@ -55,8 +55,10 @@ def bubbles():
     .order_by(func.count().desc())
     .all()
         )
-    for result in results:
-        print(result)
+    df = pd.DataFrame(results, columns=['Country', 'Location_count', 'Average_Stalls'])
+
+    data = df.to_dict(orient="records")
+    return(jsonify(data))
 
 session.close()
 
