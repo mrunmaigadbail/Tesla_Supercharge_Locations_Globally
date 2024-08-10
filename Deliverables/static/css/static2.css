@@ -1,0 +1,14 @@
+/* this is for the work sited page */
+/* works sited page  */
+.card {
+    width: 400px; /* Set the initial width of the card */
+    max-height: 400px; /* Set the maximum height of the card */
+    border: 1px solid #ccc; /* Add a border for visual separation */
+    margin: 10px; /* Add some margin around the card */
+    padding: 10px; /* Add padding inside the card */
+    overflow-y: auto; /* Add vertical scroll if content exceeds max height */
+  }
+  
+  .card-text{
+    word-wrap: break-word; /* Allow the text to wrap within the card */
+  }
