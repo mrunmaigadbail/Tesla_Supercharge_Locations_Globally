@@ -14,6 +14,24 @@ sql = SQLHelper()
 #################################################
 
 @app.route("/")
+def home_page():
+    return render_template("home.html")
+
+@app.route("/work_sited")
+def about_us():
+    return render_template("work_sited.html")
+
+@app.route("/about_us")
+def about_us():
+    return render_template("about_us.html")
+
+@app.route("/map")
+def about_us():
+    return render_template("map.html")
+
+@app.route("/dashboard")
+def dashboard():
+    return render_template("dashboard.html")
 def welcome():
     """List all available api routes."""
     return (
