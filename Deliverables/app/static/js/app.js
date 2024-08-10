@@ -1,18 +1,18 @@
 function do_work() {
     // extract user input
-    // let min_launches = d3.select("#launch_filter").property("value");
+    let country = d3.select("#country_filter").property("value");
     // min_launches = parseInt(min_launches);
     // let region = d3.select("#region_filter").property("value");
   
     // We need to make a request to the API
-    let url = `/api/v1.0/get_dashboard/${min_launches}/${region}`;
+    let url = `/api/v1.0/`+country;
     d3.json(url).then(function (data) {
-  
+      console.log(data);
       // create the graphs
-      make_bar(data.bar_data);
-      make_bouble(data.bouble_data);
-      make_table(data.table_data);
-      make_line(data.line_data)
+      //make_bar(data.bar_data);
+      //make_bouble(data.bouble_data);
+      //make_table(data.table_data);
+      //make_line(data.line_data)
       //make_sunburst(data.sunbusrt_data)
     });
   }
@@ -126,8 +126,8 @@ function do_work() {
   }
   
   // event listener for CLICK on Button
-  d3.select("#filter").on("click", do_work);
+  d3.select("#country_filter").on("click", do_work);
   
   // on page load, don't wait for the click to make the graph, use default
-  do_work();
+  //do_work();
   
