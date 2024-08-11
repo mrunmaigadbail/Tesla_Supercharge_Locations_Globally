@@ -13,8 +13,6 @@ sql = SQLHelper()
 # Flask Routes
 #################################################
 
-<<<<<<< HEAD
-=======
 @app.route("/")
 def home_page():
     return render_template("home.html")
@@ -52,7 +50,6 @@ def welcome():
 # def passengers_orm():
 #     data = sql.query_precipitation_orm()
 #     return(jsonify(data))
->>>>>>> 93806e10364404e4ca812024bd11032724a52bd3
 
 
 if __name__ == '__main__':
