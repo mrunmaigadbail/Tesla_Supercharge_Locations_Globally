@@ -1,0 +1,73 @@
+/* belive it or not all of this is for the about us page */
+body {
+    padding: 20px; /* Add padding from the edges of the page */
+  }
+  
+  .container {
+    height: 200px; /* Make the containers taller */
+    padding: 10px; /* Add padding inside the container */
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+    height: 100%; /* Set the height of the columns */
+    margin-bottom: 16px;
+    padding: 10px; /* Add padding inside the columns */
+    box-sizing: border-box;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: right;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 60%;
+  text-decoration: none; /* Remove underline from the link */
+}
+
+.button a {
+    text-decoration: none; /* Remove underline from the link */
+    color: white; /* Set link text color to white */
+  }
+
+.button2 {
+    border: none;
+    outline: 0;
+    display: left;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width:60%;
+    text-decoration: none; /* Remove underline from the link */
+  }
+
+  .button2 a {
+    text-decoration: none; /* Remove underline from the link */
+    color: white; /* Set link text color to white */
+  }
+
+.button:hover {
+  background-color: #555;
+}
