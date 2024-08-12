@@ -24,6 +24,17 @@ def index():
 def dashboard():
    return render_template("dashboard.html")
 
+@app.route("/map")
+def map():
+   return render_template("superChargerMap.html")
+
+@app.route("/api/v1/get_map_Data")   
+def get_map_Data():
+    map_Data = sql.get_map_Data()
+    data = {
+        "map_Data": map_Data
+        }
+    return jsonify(data)
 
 @app.route("/api/v1/sunburst")   
 def sunburst():

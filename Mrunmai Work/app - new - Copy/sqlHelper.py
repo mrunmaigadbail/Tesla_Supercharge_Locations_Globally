@@ -151,3 +151,26 @@ class SQLHelper():
         df = pd.read_sql(text(query), con = self.engine)
         data = df.to_dict(orient="records")
         return(data)
+    
+    
+    def get_map_Data(self):
+
+        # build the query
+        query = f"""
+        SELECT
+            Country,
+            State,
+            City,
+            Supercharger,
+            Street_Address,
+            kW,
+            Stalls,
+            Latitude,
+            Longitude
+        FROM
+            supercharge_locations
+
+        """
+        df = pd.read_sql(text(query), con = self.engine)
+        data = df.to_dict(orient="records")
+        return(data)

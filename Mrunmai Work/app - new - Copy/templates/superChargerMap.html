@@ -23,7 +23,7 @@
     crossorigin=""></script>
 
     <!-- Leaflet heatmap plugin-->
-    <script type="text/javascript" src="static/js/leaflet-heat.js"></script>
+    <!-- <script type="text/javascript" src="static/js/leaflet-heat.js"></script> -->
 
     <!-- Marker cluster JavaScript code -->
     <script type="text/javascript" src="https://unpkg.com/leaflet.markercluster@1.0.3/dist/leaflet.markercluster.js"></script>
@@ -63,47 +63,13 @@
 
     <!-- add spacing -->
     <br/>
-
-    <!-- Dashboard -->
-     <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <h1>SpaceX Dashboard</h1>
-            </div>
+    <div id="map-container">
+        <div id="map">
         </div>
-        <hr/>
-        <div class="row">
-            <div class="col-md-6">
-                <label for="launch_filter">Min Launches</label>
-                <input type="number" value="10" id="launch_filter">
+    </div>
 
-                <label for="region_filter">Region</label>
-                <select id="region_filter">
-                    <option selected>All</option>
-                    <option>California</option>
-                    <option>Florida</option>
-                    <option>Marshall Islands</option>
-                    <option>Texas</option>
-                </select>
 
-                <button id="filter">Filter!</button>
-            </div>
-            <div class="col-md-6">
-                <p>Bacon ipsum dolor amet ribeye chicken leberkas ham hock meatloaf bresaola shoulder. Burgdoggen porchetta buffalo, kielbasa ham chicken filet mignon sirloin pancetta. Capicola biltong strip steak, drumstick tongue chislic pork belly jowl beef swine buffalo. Hamburger cupim shank chuck turkey venison frankfurter short ribs tail. Ham hock chicken shank beef ribs picanha biltong tail rump alcatra short ribs kevin cupim pork loin.</p>
-            </div>
-        </div>
-        <hr/>
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <div id="map-container"></div>
-            </div>
-        </div>
-     </div>
-
-     <br/>
-     <br/>
-
-    <script src="./static/js/map.js"></script>
+    <script src="./static/js/superChargerMap.js"></script>
 </body>
 
 </html>
