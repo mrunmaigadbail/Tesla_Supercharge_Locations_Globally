@@ -24,6 +24,18 @@ def home_page():
 def dashboard():
     return render_template("dashboard.html")
 
+@app.route("/map")
+def map():
+    return render_template("map.html")
+
+@app.route("/about_us")
+def about_us():
+    return render_template("about_us.html")
+
+@app.route("/work_sited")
+def work_sited():
+    return render_template("work_sited.html")
+
 @app.route("/api/v1.0/<country>")
 def get_data(country):
     data = {"country": country}
