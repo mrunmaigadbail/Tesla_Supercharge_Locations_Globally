@@ -77,5 +77,25 @@ def get_dashboard(min_stalls, country, state):
 #     return jsonify(data)
 
 # Run the App
+
+@app.route("/api/v1/get_Country_filter_Data")   
+def get_Country_filter_Data():
+    Countries = sql.get_Country_filter_Data()
+    data = {
+        "Countries": Countries
+        }
+
+    return jsonify(data)
+
+@app.route("/api/v1/get_State_filter_Data/<country>")   
+def get_State_filter_Data(country):
+    States = sql.get_State_filter_Data(country)
+    data = {
+        "States": States
+        }
+
+    return jsonify(data)
+
+# Run the App
 if __name__ == '__main__':
     app.run(debug=True)

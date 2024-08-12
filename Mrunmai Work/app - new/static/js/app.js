@@ -49,19 +49,9 @@ function do_work() {
       }
       
       row.append("td").text(data_row.TotalStalls);  
-      row.append("td").text(data_row.AvgStalls);
+      row.append("td").text(Number(data_row.AvgStalls).toFixed(2));
       row.append("td").text(data_row.min_kw);
       row.append("td").text(data_row.max_kw);
-      // creates new row in the table
-      // let row = table_body.append("tr");
-      // row.append("td").text(data_row.name);
-      // row.append("td").text(data_row.full_name);
-      // row.append("td").text(data_row.region);
-      // row.append("td").text(data_row.latitude);
-      // row.append("td").text(data_row.longitude);
-      // row.append("td").text(data_row.launch_attempts);
-      // row.append("td").text(data_row.launch_successes);
-      // row.append("td").text(data_row.launch_attempts - data_row.launch_successes);
     }
   }
   
@@ -95,15 +85,6 @@ function do_work() {
         // label: label_data
       }
     };
-
-    // let trace1 = {
-    //   values: X_data,
-    //   labels: pie_labels,
-    //   type: 'pie',
-    //   hoverinfo: 'label+percent+name',
-    //   hole: 0.4,
-    //   name: "Attempts"
-    // }
   
     // Create data array
     let data = [trace1];
@@ -127,6 +108,92 @@ function do_work() {
   }
 
   
+  // function make_filters(country) {  
+  //       // We need to make a request to the API
+  //       let url = `/api/v1/get_filter_Data`;
+  //       d3.json(url).then(function (data) {
+      
+  //       // make filters        
+  //       make_country_filters(data);
+  //       //make_state_filters("All");
+  //       });  
+  // }
+
+    
+  // function make_country_filters(data) {    
+  //   //const selectedCountry = country;
+  //   //console.log("Selected Country:", selectedCountry);
+
+  //   let CountryFilter = document.getElementById("country_filter");
+
+  //   // Clear the state dropdown first
+  //   CountryFilter.innerHTML = "";
+
+  //   // Populate state dropdown with options for the selected country
+  //   Country_State_data.forEach(country => {
+  //       const option = document.createElement("option");
+  //       option.text = country;
+  //       CountryFilter.add(option);
+  //   });
+  // }
+    
+  // function make_state_filters(Country) {    
+  //   const selectedCountry = document.getElementById("country_filter").selectedCountry;
+  //   //console.log("Selected Country:", selectedCountry);
+
+  //   let StateFilter = document.getElementById("state_filter");
+
+  //   // Clear the state dropdown first
+  //   StateFilter.innerHTML = "";
+
+  //   // Populate state dropdown with options for the selected country
+  //   Country_State_data.selectedCountry.forEach(state => {
+  //       const option = document.createElement("option");
+  //       option.text = state;
+  //       StateFilter.add(option);
+  //   });
+  // }
+  // function make_state_filters(country) {    
+  //   const selectedCountry = country_filter.value;
+  //   console.log("Selected Country:", selectedCountry);
+
+  //   const states = countryStates[selectedCountry];
+  //   console.log("States for Selected Country:", states);
+
+  //   // Clear the state dropdown first
+  //   state_filter.innerHTML = "";
+
+  //   // Populate state dropdown with options for the selected country
+  //   states.forEach(state => {
+  //       const option = document.createElement("option");
+  //       option.text = state;
+  //       stateSelect.add(option);
+  //   });
+  //}
+  // country_filter.addEventListener("change", function() {
+  //   make_state_filters()
+  // });
+
+//   document.addEventListener('DOMContentLoaded', function() {
+//     make_filters()
+//     // // Call updateBarChart with default values or when dropdown values change
+//     // const defaultCountry = 'All'; // Default country value
+//     // const defaultState = 'All'; // Default state value
+//     // updateBarChart(defaultCountry, defaultState);
+
+//     // // Add event listeners to country and state dropdowns to update the chart
+//     // document.getElementById('countryDropdown').addEventListener('change', function() {
+//     //     const selectedCountry = this.value;
+//     //     const selectedState = document.getElementById('stateDropdown').value;
+//     //     updateBarChart(selectedCountry, selectedState);
+//     // });
+
+//     // document.getElementById('stateDropdown').addEventListener('change', function() {
+//     //     const selectedCountry = document.getElementById('countryDropdown').value;
+//     //     const selectedState = this.value;
+//     //     updateBarChart(selectedCountry, selectedState);
+//     // });
+// });
   
   // event listener for CLICK on Button
   d3.select("#filter").on("click", do_work);
