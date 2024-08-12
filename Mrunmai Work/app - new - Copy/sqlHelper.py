@@ -113,3 +113,41 @@ class SQLHelper():
     #     df = pd.read_sql(text(query), con = self.engine)
     #     data = df.to_dict(orient="records")
     #     return(data)
+
+    def get_Country_filter_Data(self):
+
+        # build the query
+        query = f"""
+            select
+                DISTINCT Country 
+            from
+                supercharge_locations
+            group by
+                Country
+            order by
+                Country
+
+        """
+        df = pd.read_sql(text(query), con = self.engine)
+        data = df.to_dict(orient="records")
+        return(data)
+
+    def get_State_filter_Data(self, country):
+
+        # build the query
+        query = f"""
+            select
+                DISTINCT State 
+            from
+                supercharge_locations
+            Where
+                Country = '{country}' 
+            group by
+                State
+            order by
+                State
+
+        """
+        df = pd.read_sql(text(query), con = self.engine)
+        data = df.to_dict(orient="records")
+        return(data)
