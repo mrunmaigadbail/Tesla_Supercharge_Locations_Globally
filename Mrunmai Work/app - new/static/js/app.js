@@ -11,16 +11,19 @@ function do_work() {
   
       // create the graphs
       make_bubble(data.bubble_data, country, state);
+      make_table(data.bubble_data, country, state);
       //make_sunburst(data.sunbusrt_data)
     });
   }
 
-  function make_table() {
+  function make_table(filtered_data, country, state) {
     // select table
     let table = d3.select("#data_table");
     let table_body = table.select("tbody");
     table_body.html(""); // destroy any existing rows
   
+    let SelectionHeaderLabel = document.getElementById("selection_label");
+    
     // create table
     for (let i = 0; i < filtered_data.length; i++){
       // get data row
@@ -28,14 +31,37 @@ function do_work() {
   
       // creates new row in the table
       let row = table_body.append("tr");
-      row.append("td").text(data_row.name);
-      row.append("td").text(data_row.full_name);
-      row.append("td").text(data_row.region);
-      row.append("td").text(data_row.latitude);
-      row.append("td").text(data_row.longitude);
-      row.append("td").text(data_row.launch_attempts);
-      row.append("td").text(data_row.launch_successes);
-      row.append("td").text(data_row.launch_attempts - data_row.launch_successes);
+
+      if (country == 'All')
+      {
+        row.append("td").text(data_row.Country);
+        SelectionHeaderLabel.innerHTML  = "Country";
+      }
+      else if (state == "All")
+      {
+        row.append("td").text(data_row.State);
+        SelectionHeaderLabel.innerHTML  = "State";
+      }
+      else
+      {
+        row.append("td").text(data_row.City);
+        SelectionHeaderLabel.innerHTML  = "City";
+      }
+      
+      row.append("td").text(data_row.TotalStalls);  
+      row.append("td").text(data_row.AvgStalls);
+      row.append("td").text(data_row.min_kw);
+      row.append("td").text(data_row.max_kw);
+      // creates new row in the table
+      // let row = table_body.append("tr");
+      // row.append("td").text(data_row.name);
+      // row.append("td").text(data_row.full_name);
+      // row.append("td").text(data_row.region);
+      // row.append("td").text(data_row.latitude);
+      // row.append("td").text(data_row.longitude);
+      // row.append("td").text(data_row.launch_attempts);
+      // row.append("td").text(data_row.launch_successes);
+      // row.append("td").text(data_row.launch_attempts - data_row.launch_successes);
     }
   }
   
@@ -99,6 +125,8 @@ function do_work() {
   
     Plotly.newPlot("bubble_chart", data, layout);
   }
+
+  
   
   // event listener for CLICK on Button
   d3.select("#filter").on("click", do_work);

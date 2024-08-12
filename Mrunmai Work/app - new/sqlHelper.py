@@ -77,8 +77,8 @@ class SQLHelper():
                 Country,
                 State,
                 City,
-                AVG(Stalls) as AvgStalls,
-                SUM(Stalls) as TotalStalls,
+                AVG(Stalls) AS AvgStalls,
+                SUM(Stalls) AS TotalStalls,
                 MIN(kW) AS min_kw,
                 MAX(kW) AS max_kw
             FROM
@@ -89,7 +89,7 @@ class SQLHelper():
             GROUP BY
                 {group_clause}
             ORDER BY
-                Stalls;   
+                TotalStalls DESC;   
 
         """
         df = pd.read_sql(text(query), con = self.engine)
