@@ -45,8 +45,7 @@ class SQLHelper():
         Stalls,
         Latitude,
         Longitude
-        FROM supercharge_locations
-        where Stalls >= 15;
+        FROM supercharge_locations;
 
         """
         df = pd.read_sql(text(query), con = self.engine)

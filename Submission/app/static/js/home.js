@@ -93,6 +93,9 @@ const data = [{
     ids: ids,
     labels: labels,
     parents: parents,
+    marker:{
+        colorscale: "Electric",
+    },
     //values: hovertexts, // Display hover text
     hovertemplate: hovertexts, // Customize which information to show on hover
     domain: {column: 0},
