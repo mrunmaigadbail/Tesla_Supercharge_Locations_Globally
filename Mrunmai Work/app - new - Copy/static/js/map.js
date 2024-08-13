@@ -48,7 +48,7 @@ function makeMarkers(locations) {
     // Set the data location property to a variable.
     let latitude = location.Latitude;
     let longitude = location.Longitude;
-    let popupmsg = `Name :${location.Supercharger} <br>
+    let popupmsg = `Name: ${location.Supercharger} <br>
                     Address: ${location.Street_Address} <br>
                     Stalls: ${location.Stalls}`
 
