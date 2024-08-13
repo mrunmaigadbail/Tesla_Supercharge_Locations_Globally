@@ -13,6 +13,7 @@ function do_work() {
       make_bubble(data.bubble_data, country, state);
       make_table(data.bubble_data, country, state);
       make_bar_chart(data.bubble_data, country, state);
+      
     });
   }
 
@@ -55,10 +56,37 @@ function do_work() {
       row.append("td").text(data_row.min_kw);
       row.append("td").text(data_row.max_kw);
     }
-    // Create the datatable
-    $('#data_table').DataTable();
-  }
+   
   
+    // Create the datatable
+    $('#data_table').DataTable({
+      "order": [[1, 'desc']]
+  });
+  }
+
+  // Call the function to sort the table
+  
+
+  function sortTableBySecondColumn() {
+    // Get the table body
+    const tbody = document.querySelector("#data_table tbody");
+
+    // Convert table rows to an array
+    const rowsArray = Array.from(tbody.querySelectorAll("tr"));
+
+    // Sort rows by the second column (Total Stalls)
+    rowsArray.sort((rowA, rowB) => {
+        // Extract the values from the second column
+        const valueA = parseFloat(rowA.children[1].textContent);
+        const valueB = parseFloat(rowB.children[1].textContent);
+
+        //return valueA - valueB; // For ascending order
+        return valueB - valueA; // For descending order
+    });
+
+    // Append sorted rows back to the table body
+    rowsArray.forEach(row => tbody.appendChild(row));
+}  
   function make_bubble(filtered_data, country, state) {
     // extract data for bubble chart
     let X_data = filtered_data.map(x => x.TotalStalls);
