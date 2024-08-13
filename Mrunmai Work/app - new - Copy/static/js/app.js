@@ -17,6 +17,8 @@ function do_work() {
   }
 
   function make_table(filtered_data, country, state) {
+    // re-init the datatable
+  $('#data_table').DataTable().clear().destroy();
     // select table
     let table = d3.select("#data_table");
     let table_body = table.select("tbody");
@@ -53,6 +55,8 @@ function do_work() {
       row.append("td").text(data_row.min_kw);
       row.append("td").text(data_row.max_kw);
     }
+    // Create the datatable
+    $('#data_table').DataTable();
   }
   
   function make_bubble(filtered_data, country, state) {
@@ -81,7 +85,9 @@ function do_work() {
       text: label_data,
       mode: 'markers',
       marker: {
+        color:X_data,
         size: Y_data,
+        colorscale: 'Bluered',
         // label: label_data
       }
     };
@@ -91,7 +97,7 @@ function do_work() {
   
     // Apply a title to the layout
     let layout = {
-      title: "Average vs Total number of Stalls",
+      title: "Average vs Total Number of Stalls",
       // xaxis: "Total stalls",
       // yaxis: "Average stalls",
       
@@ -134,7 +140,12 @@ function do_work() {
       x: X_data.slice(0, 10),
       y: Y_data,
       //text: label_data,
-      type: 'bar'
+      type: 'bar',
+      marker:{
+          color: '#330099',
+      }
+      
+      //orientation: 'h'
       //mode: 'markers',
       // marker: {
       //   size: X_data,
@@ -147,7 +158,7 @@ function do_work() {
   
     // Apply a title to the layout
     let layout = {
-      title: `Total number of Stalls by top ${barLabelName}`,
+      title: `Total Number of Stalls by top ${barLabelName}`,
       // xaxis: "Total stalls",
       // yaxis: "Average stalls",
       
