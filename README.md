@@ -1,5 +1,6 @@
 # Tesla_Supercharge_Locations_Globally
 Project 3: Data Visualization Web Application
+#### All Deliverables are located in the Submission folder
 ## Overview
 This project is a web application that showcases dynamic data visualizations created using Plotly. The data for these visualizations was sourced from a CSV dataset, cleaned, transformed, and stored in a SQLite database. The web application allows users to interact with the data by changing filters through a dashboard and map to find locations of Tesla Superchargers globally. 
 
