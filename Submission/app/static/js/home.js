@@ -53,6 +53,10 @@ jsonData.forEach(entry => {
     const superchargerLabel = `${entry.Supercharger.substring(0, entry.Supercharger.indexOf(","))}`;
     //const cityHoverText = `No. of Superchargers: ${entry.stalls} <extra></extra>`;
     // let cityHoverText = `No. of Superchargers: ${entry.stalls} <extra></extra>`;
+    const countryName = `${countryLabel}<extra></extra>`
+    const stateName = `${stateLabel}<extra></extra>`
+    const cityName = `${cityLabel}<extra></extra>`
+    
     const superchargerHoverText = `
 Name: ${superchargerLabel} <br>
 Address: ${entry.Street_Address}, ${cityLabel}, ${stateLabel} <br>
@@ -63,15 +67,15 @@ kW: ${entry.kW}
     //string.concat(string1, string2, ..., stringX)
 
     if (!ids.includes(countryId)) {
-        addNode(countryId, countryLabel, 'root');
+        addNode(countryId, countryLabel, 'root', countryName);
     }
 
     if (!ids.includes(stateId)) {
-        addNode(stateId, stateLabel, countryId);
+        addNode(stateId, stateLabel, countryId, stateName) ;
     }
 
     if (!ids.includes(cityId)) {
-        addNode(cityId, cityLabel, stateId);
+        addNode(cityId, cityLabel, stateId, cityName);
     }
 
     addNode(superchargerId, superchargerLabel, cityId, superchargerHoverText);
