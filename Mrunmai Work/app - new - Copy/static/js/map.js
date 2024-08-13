@@ -3,9 +3,9 @@ const HEAT_RADIUS = 50;
 const HEAT_BLUR = 30;
 const HEAT_MAX = 0.1;
 const MAP_DEFAULTS = { 
-  LAT: 40.7128,
-  LON: -74.0059,
-  ZOOM: 5,
+  LAT: 39.39,
+  LON: -8.22,
+  ZOOM: 3,
 };
 
 
@@ -36,7 +36,7 @@ function heatMap(locations) {
     max: HEAT_MAX,
     
   });
-  
+
   return heatLayer;
 }
 
