@@ -26,7 +26,15 @@ def dashboard():
 
 @app.route("/map")
 def map():
-   return render_template("superChargerMap.html")
+   return render_template("Map.html")
+
+@app.route("/about_us")
+def about_us():
+   return render_template("about_us.html")
+
+@app.route("/work_cited")
+def work_cited():
+   return render_template("work_cited.html")
 
 @app.route("/api/v1/get_map_Data")   
 def get_map_Data():
