@@ -49,8 +49,9 @@ function makeMarkers(locations) {
     let latitude = location.Latitude;
     let longitude = location.Longitude;
     let popupmsg = `Name: ${location.Supercharger} <br>
-                    Address: ${location.Street_Address} <br>
-                    Stalls: ${location.Stalls}`
+                    Address: ${location.Street_Address}, ${location.City}, ${location.State}<br>
+                    Stalls: ${location.Stalls}<br>
+                    kW: ${location.kW}`
 
     // Add a new marker to the cluster group, and bind a popup.
     markers.addLayer(L.marker([latitude, longitude])
