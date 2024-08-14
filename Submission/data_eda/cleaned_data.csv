@@ -387,9 +387,7 @@ Supercharger,Street_Address,City,State,Country,Stalls,kW,Elev_m,Open_Date,Latitu
 "Washington, UK",Campanile Washington Emerson Road,Washington,England,United Kingdom,8,150.0,78,2015-12-23,54.88762,-1.557413
 Nantong-Shimao Plaza,Nantong Shimao 101 Xindong Rd,Nantong,Jiangsu,China,4,120.0,4,2015-12-17,31.919376,120.952042
 "Red Bluff - S Main St, CA",725 S Main St,Red Bluff,CA,USA,12,250.0,88,2022-07-02,40.163072,-122.228937
-"Kurashiki, Japan",????????1209-1,Kurashiki,Okayama Prefecture,Japan,4,120.0,5,2016-03-18,34.578345,133.769448
 "Columbus - Hilliard Rome Rd, OH",1661 Hilliard Rome Rd,Columbus,OH,USA,12,250.0,285,2023-05-12,39.9831,-83.1529
-"Humpolec, Czech Republic","Highway D1, E551, Vystrkov",Humpolec,Vyso?ina,Czech Republic,6,150.0,593,2016-07-19,49.521746,15.347476
 "Bayonne, France",1 Chemin de Hayet,Bayonne,Nouvelle-Aquitaine,France,8,150.0,6,2016-03-05,43.493245,-1.452739
 "Aix-en-Provence, France","Avenue Arc de Meyran, Hotel Novotel Aix en Provence, Pont de l'Arc Fenouillères,",Aix-en-Provence,Provence-Alpes-Côte d'Azur,France,4,100.0,140,2015-12-17,43.510637,5.456429
 "Eidfjord, Norway",Tenestetorget Simadalsvegen 1,Eidfjord,Vestland,Norway,8,150.0,6,2016-12-17,60.467438,7.068209
@@ -781,7 +779,6 @@ Nantong-Shimao Plaza,Nantong Shimao 101 Xindong Rd,Nantong,Jiangsu,China,4,120.0
 "Hebi - Zhongkai Bojue Hotel, China",Erzhiqu S Port,Hebi,Henan,China,4,120.0,87,2017-10-03,35.735528,114.292579
 "Shanghai - Lantian Building, China",Huangxing Rd,Shanghai,Shanghai,China,6,120.0,5,2017-10-03,31.297502,121.516133
 "Shanghai - Zhoupu Greenland Plaza, China",Nianjiabang E Rd,Shanghai,Shanghai,China,8,120.0,3,2017-10-03,31.113857,121.594127
-"Shanghai - Dingxiang International Business Center, China","858? Ding Xiang Lu, Pudong Xinqu",Shanghai,Shanghai,China,50,120.0,7,2017-10-23,31.225597,121.550981
 "Weifang - Jinmao International Hotel, China",1999 Beigong East Street,Weifang,Shandong,China,6,120.0,26,2017-10-04,36.72836189,119.1835928
 "Shaoxing - Keqiao Minghua Automobile, China","2689 Jinkeqiao Avenue, Keqiao District, Shaoxing City, Zhejiang Province",Shaoxing,Zhejiang,China,10,120.0,20,2021-01-22,30.11973616,120.5170189
 "Wuhan - Yintai Creative City, China","Area E, 3rd Floor, Yintai Creative City, No. 35, Luoyu Road, Hongshan District",Wuhan,Hubei,China,8,120.0,44,2021-01-22,30.52642132,114.3565769
@@ -852,7 +849,6 @@ Nantong-Shimao Plaza,Nantong Shimao 101 Xindong Rd,Nantong,Jiangsu,China,4,120.0
 "Montemor-o-Novo, Portugal","L´AND Vineyards, Montemor-o-Novo",Montemor-o-Novo,Alentejo,Portugal,8,150.0,188,2018-01-05,38.645753,-8.247265
 "Scottsdale, AZ",15000 N 73rd St,Scottsdale,AZ,USA,16,72.0,447,2017-11-21,33.623139,-111.922451
 "Voss, Norway","Strandavegen 255, by REMA 1000 store",Skulestadmo,Vestland,Norway,12,150.0,79,2017-12-08,60.658297,6.436256
-"Sokcho, South Korea","186 Daepohang-gil, Sokcho-si, Gangwon-do 24900???? 186",Sokcho,Gangwon,South Korea,7,250.0,38,2017-12-01,38.180856,128.611593
 "Hsinchu - Science Park, Taiwan",No. 1 Industry East 2nd Road,Hsinchu City,Hsinchu,Taiwan,8,120.0,103,2017-11-30,24.779712,121.005269
 "Burbank - North Third St, CA","501 N 3rd St, Top Parking Level",Burbank,CA,USA,20,150.0,190,2017-09-14,34.18487,-118.311672
 "Portsmouth, UK","Langstone Technology Park, Langstone Road",Havant,England,United Kingdom,8,150.0,7,2017-12-20,50.847773,-0.991137
@@ -968,10 +964,8 @@ Nantong-Shimao Plaza,Nantong Shimao 101 Xindong Rd,Nantong,Jiangsu,China,4,120.0
 "Rocky View, AB","CrossIron Mills Outlets Mall, 261055 Crossiron Blvd",Rocky View,AB,Canada,8,120.0,1085,2017-03-15,51.20412,-113.989686
 "Linyi - Pullman Hotel, China","No. 1, Shuhe North Road",Linyi,Shandong,China,6,120.0,63,2019-02-14,35.074847,118.35717
 "Silao, Mexico","Plaza de la Paz, 105, Guanajuato Puerto Interior",Silao,Guanajuato,Mexico,6,120.0,1795,2018-01-04,21.000631,-101.508116
-"Kofu, Japan",2 Chome-4-20 Tokugy?,K?fu,Yamanashi,Japan,6,120.0,268,2018-01-27,35.652801,138.547736
 "Skokie, IL",5507 W Touhy Ave,Skokie,IL,USA,20,72.0,189,2018-01-30,42.009459,-87.766164
 "Concord, NH",11 Merchants Way,Concord,NH,USA,12,250.0,92,2022-02-15,43.289094,-71.579011
-"Sormás, Hungary","M7-es f?útvonal, 215-ös kilométerk?, 8881",Sormás,Western Transdanubia,Hungary,12,250.0,172,2017-12-20,46.460543,16.906756
 "Manchester, CT",1470 Pleasant Valley Rd,Manchester,CT,USA,16,150.0,41,2017-12-18,41.80455,-72.562267
 "Woburn, MA",101 Commerce Way,Woburn,MA,USA,12,250.0,22,2021-10-28,42.518385,-71.137254
 "Wall, SD",407 Main St,Wall,SD,USA,8,150.0,859,2019-06-05,43.994145,-102.24214
@@ -984,7 +978,6 @@ Nantong-Shimao Plaza,Nantong Shimao 101 Xindong Rd,Nantong,Jiangsu,China,4,120.0
 "Madison - E Washington Ave, WI",3801 E Washington Ave,Madison,WI,USA,8,150.0,265,2017-12-20,43.119137,-89.319052
 "Shanghai - Auto Park, China",2855 Huqingping Road,Shanghai,Shanghai,China,16,120.0,4,2019-01-25,31.15246462,121.2264861
 "Ningbo - Haishu Impression City, China","G2, B2, Haishu Impression City, No. 3666, Zhongshan West Road, Haishu District",Ningbo,Zhejiang,China,9,250.0,4,2022-09-12,29.8957,121.4775
-"Shenzhen - Shuibei IBC, China","??Shuibei IBC Shopping Mall, No. 3008 Buxin Road, Luohu District, Shenzhen, Guangdong",Shenzhen,Guangdong,China,9,250.0,35,2022-09-12,22.57514,114.12337
 "Chicago - North Broadway, IL",3030 North Broadway,Chicago,IL,USA,8,72.0,179,2018-01-31,41.937338,-87.644666
 "Evergreen, AL",90 Liberty Hill Pl,Evergreen,AL,USA,12,250.0,100,2022-11-15,31.457228,-86.961555
 "Beijing - Hairun Building, China",No.36 Haidian South Road,Beijing,Beijing,China,50,120.0,61,2018-01-04,39.97450776,116.30267578
@@ -1005,13 +998,11 @@ Nantong-Shimao Plaza,Nantong Shimao 101 Xindong Rd,Nantong,Jiangsu,China,4,120.0
 "Bassano, AB",621 12th St,Bassano,AB,Canada,6,250.0,800,2019-12-20,50.791436,-112.450859
 "Manhattan Beach, CA",3200 N Sepulveda Blvd,Manhattan Beach,CA,USA,24,72.0,37,2018-12-06,33.901472,-118.393833
 "Tampa, FL",2502 N 50th St,Tampa,FL,USA,8,150.0,12,2018-02-24,27.965757,-82.402577
-"Beijing - Wangjing, Juanshitiandi Building, China",??????????????,Beijing,Beijing,China,12,150.0,45,2020-02-29,39.982954,116.452092
 "Mokpo, South Korea",Mokpo Ogam-ro 95,Mokpo,Jeollanam,South Korea,8,250.0,7,2022-12-11,34.807314,126.425745
 "Lamar, CO",173 E Beech St,Lamar,CO,USA,8,250.0,1103,2022-05-21,38.089378,-102.618303
 "Phoenix - E Camelback Rd, AZ",2502 E Camelback Rd,Phoenix,AZ,USA,16,72.0,360,2018-03-27,33.511555,-112.026392
 "Bregenz, Austria",Weidachstraße 10,Bregenz,Vorarlberg,Austria,20,138.0,415,2017-12-15,47.488536,9.739797
 "Mont-Saint-Michel, France",Za Le Point du Jour,Saint-Georges-de-Gréhaigne,Bretagne,France,8,150.0,7,2018-05-29,48.568171,-1.543283
-"Ciechocinek, Poland",Miko?aja Kopernika 56,Ciechocinek,Kuyavia-Pomerania,Poland,4,150.0,43,2018-03-01,52.874469,18.773758
 "Taichung - J Mall, Taiwan","Room 407, No. 1038, Section 4, Taiwan Avenue, Xitun District, Taichung City",Taichung,Taichung,Taiwan,8,120.0,117,2019-02-12,24.183497,120.615073
 "Bruchsal, Germany",Kammerforststraße 17,Bruchsal,Baden-Württemberg,Germany,14,130.0,111,2019-02-15,49.138361,8.562417
 "Barnsley, UK","Tankersley Manor hotel, Church Lane",Barnsley,England,United Kingdom,2,150.0,176,2015-03-04,53.489393,-1.486223
@@ -1020,7 +1011,6 @@ Nantong-Shimao Plaza,Nantong Shimao 101 Xindong Rd,Nantong,Jiangsu,China,4,120.0
 "Los Angeles - W Olympic Blvd, CA",11355 W Olympic Blvd,Los Angeles,CA,USA,16,250.0,58,2022-11-19,34.03818,-118.443301
 "Freehold, NJ",909 NJ-33,Freehold,NJ,USA,8,250.0,43,2020-06-24,40.238319,-74.228021
 "San Antonio, TX",11745 IH-10 West,San Antonio,TX,USA,10,122.0,305,2019-08-22,29.549585,-98.582722
-"Zarechye, Russia","Skolkovskoye Shosse, 100 ???????? 1",Zarechye,Moscow Oblast,Russia,4,120.0,159,2018-01-26,55.695015,37.380434
 "Blind River, ON",190 Trans-Canada Hwy,Blind River,ON,Canada,6,250.0,189,2019-12-12,46.185186,-82.927111
 "Washington - Wisconsin Ave NW, DC",1855 Wisconsin Ave NW,Washington,DC,USA,8,72.0,51,2020-03-06,38.91655,-77.066175
 "San Pedro Garza Garcia, Mexico",555 Río Missouri San Pedro Garza García,San Pedro Garza García,Nuevo León,Mexico,8,72.0,603,2019-05-21,25.659054,-100.354133
@@ -1099,7 +1089,6 @@ Nantong-Shimao Plaza,Nantong Shimao 101 Xindong Rd,Nantong,Jiangsu,China,4,120.0
 "Foshan - Golden Dream Vankeli, China","No. 41, Industrial Avenue, Beijiao Town, Shunde District, Foshan City, Guangdong",Foshan,Guangdong,China,3,250.0,-1,2023-01-31,22.912679,113.209891
 "Jinhua - World Trade Center, China","Area D, 2nd Floor, Basement Parking, No. 888 Liyu Road, Wucheng District, Jinhua City, Zhejiang",Jinhua,Zhejiang,China,3,250.0,45,2023-01-31,29.08220811,119.6491412
 "Jinju - Lotte Mall, South Korea","440 Dongjin-ro, Jinju-si, Gyeongsangnam-do",Jinju,Gyeongsangnam,South Korea,6,115.0,21,2018-12-12,35.1802627,128.1397201
-"Aleksinac, Serbia",itkova?ki put (bb),Aleksinac,Southern and Eastern Serbia,Serbia,4,125.0,164,2020-03-13,43.528789,21.709381
 "London - Sidcup, UK","Ruxley Manor Garden Centre, Maidstone Rd",Orpington,England,United Kingdom,15,250.0,58,2022-09-24,51.4128,0.1343
 "Pleasanton, CA",6000 Johnson Dr,Pleasanton,CA,USA,10,72.0,100,2019-05-01,37.700508,-121.908364
 "Firenze, Italy",Via Tevere 23,Florence,Tuscany,Italy,8,150.0,36,2018-03-19,43.810011,11.177737
@@ -1126,7 +1115,6 @@ Nantong-Shimao Plaza,Nantong Shimao 101 Xindong Rd,Nantong,Jiangsu,China,4,120.0
 "Nonsan, South Korea","36, Dongan-ro 1113beon-gil, Yeonmu-eup, Nonsan-si, Chungcheongnam-do",Nonsan,Chungcheongnam,South Korea,6,120.0,29,2019-06-20,36.12882428,127.12962019
 "Shanghai - Fengxian RT-Mart, China","B1 gate of RT-Mart, Nanting Highway, Nanqiao Town, Fengxian District, Shanghai",Shanghai,Shanghai,China,3,250.0,5,2022-10-14,30.905587,121.444057
 "Thornton, CO",237 E 120th Ave,Thornton,CO,USA,8,250.0,1635,2020-02-28,39.914711,-104.986758
-"Zhaotong - Jiangshan Hotel, China","186?-168? Zhen Xing Lu, Zhaoyang Qu",Zhaotong,Yunnan,China,6,120.0,1906,2019-03-21,27.32188089,103.70575385
 "La Léchère-les-Bains, France","Chemin des Marronniers, near Les Thermes",La Léchère,Auvergne-Rhône-Alpes,France,8,150.0,440,2019-01-03,45.51877,6.482522
 "Aire du Jura, France","A39, Aire du Jura",Arlay,Bourgogne-Franche-Comté,France,12,250.0,259,2021-12-16,46.773935772378195,5.5216493098633
 "Levanger, Norway",Moafjæra 14. By Magneten shopping center,Levanger,Trøndelag,Norway,12,150.0,0,2019-07-04,63.734453,11.281124
@@ -1202,7 +1190,6 @@ Nantong-Shimao Plaza,Nantong Shimao 101 Xindong Rd,Nantong,Jiangsu,China,4,120.0
 "Payson, AZ",201 North Beeline Hwy,Payson,AZ,USA,12,150.0,1514,2018-12-29,34.242065,-111.322538
 "Hefei - Yintai Center, China",Yintai Centre Luyang Qu,Hefel,Anhui,China,6,120.0,18,2018-05-03,31.86278595,117.29193347
 "Belleville, ON",390 N Front St,Belleville,ON,Canada,20,150.0,95,2018-06-09,44.187938,-77.398757
-"Nagoya - Meijo, Japan","1 Chome-2 Meij?, Kita-kua",Nagoya,Aichi-ken,Japan,6,120.0,8,2018-04-27,35.18822,136.904113
 "Kingston - Dalton Ave, ON",88 Dalton Ave,Kingston,ON,Canada,8,250.0,84,2021-12-23,44.264946,-76.501804
 "Escanaba, MI",505 N 26th St,Escanaba,MI,USA,8,250.0,188,2021-07-31,45.750542,-87.085129
 "Shanghai - Landmark Center, China",89 Zhapu Road,Shanghai,Shanghai,China,6,120.0,16,2018-05-15,31.245934,121.486649
@@ -1217,7 +1204,6 @@ Nantong-Shimao Plaza,Nantong Shimao 101 Xindong Rd,Nantong,Jiangsu,China,4,120.0
 "Huangshan - Crowne Plaza Huangshan Yucheng, China","1st Floor, Underground Parking Lot, Crowne Plaza Hotel, No. 1 Huizhou Avenue, Tunxi District",Huangshan,Anhui,China,6,120.0,176,2021-01-22,29.70461138,118.3362428
 "Reading, PA",5060 Perkiomen Ave,Reading,PA,USA,8,250.0,71,2022-02-05,40.301734,-75.853085
 "Brooklyn, OH",10315 Cascade Crossing,Brooklyn,OH,USA,8,250.0,235,2021-12-24,41.422533,-81.7584885
-"Kawaguchi, Japan",1-ch?me-7 Sakashitach?,Kawaguchi,Saitama,Japan,4,250.0,7,2020-12-11,35.832459,139.735628
 "Chestnut Hill, MA",55 Boylston St,Chestnut Hill,MA,USA,8,150.0,52,2020-01-10,42.322031,-71.172395
 "Milpitas - Great Mall, CA",1234 Great Mall Dr,Milpitas,CA,USA,20,72.0,11,2019-09-20,37.413353,-121.897995
 "McComb, MS",1436 Delaware Ave,McComb,MS,USA,8,150.0,137,2019-11-23,31.248479,-90.471779
@@ -1239,7 +1225,6 @@ Nantong-Shimao Plaza,Nantong Shimao 101 Xindong Rd,Nantong,Jiangsu,China,4,120.0
 "Erie - Perry Hwy, PA",8180 Perry Hwy,Erie,PA,USA,8,250.0,338,2022-02-05,42.065634,-80.037239
 "Fairfield - Holiday Lane, CA",1350 Holiday Ln,Fairfield,CA,USA,12,150.0,12,2019-05-09,38.256667,-122.065139
 "Santa Monica - Santa Monica Place, CA",395 Santa Monica Place,Santa Monica,CA,USA,14,72.0,20,2019-02-19,34.013087,-118.493843
-"Kyoto, Japan",?600-8237,Kyoto,Kyoto,Japan,4,72.0,27,2018-12-19,34.986112,135.752512
 "Shenzhen - Coastal Times Apartment, China","Coastal Times Apartment, No. 12069, Shennan Avenue, Nanshan District, Shenzhen, Guangdong",Shenzhen,Guangdong,China,9,250.0,10,2022-09-12,22.54049,113.91614
 "Wuzhishan - Rendi Mountain Health Base, China","3, Rendi Mountain Health Care Base, No. 3 Lanhu Road, Wuzhishan City, Hainan",Wuzhishan,Hainan,China,6,250.0,331,2022-09-12,18.756277,109.530954
 "Shenzhen - Deyi Park, China","Deyi Park, No. 307, Longhua District, Shenzhen City, Guangdong",Shenzhen,Guangdong,China,12,250.0,67,2022-09-12,22.63166,114.02933
@@ -1427,7 +1412,6 @@ Nantong-Shimao Plaza,Nantong Shimao 101 Xindong Rd,Nantong,Jiangsu,China,4,120.0
 "Collinsville, IL",217 N Bluff Rd,Collinsville,IL,USA,8,250.0,133,2021-06-18,38.67344,-90.013486
 "Mount Pleasant, IA",1700 E Washington St,Mount Pleasant,IA,USA,8,250.0,219,2021-06-10,40.961378,-91.528249
 "Quinto, Switzerland",16 Via di Mezzo,Quinto,Ticino,Switzerland,10,125.0,1010,2018-09-27,46.515263,8.67061
-"Hiroshima, Japan","1-ch?me-1 Sh?k? Center, Nishi-ku",Hiroshima,Hiroshima,Japan,8,72.0,6,2020-02-15,34.372844,132.404382
 "Yangyang, South Korea","Seolhaewon Resort, 230, Gonghang-ro, Sonyang-myeon",Yangyang-gun,Gangwon,South Korea,8,250.0,89,2021-12-31,38.054626,128.660877
 "Warrnambool, VIC",21-23 Gateway Rd,Warrnambool,Vic,Australia,3,250.0,27,2021-12-04,-38.381231,142.519295
 "Newbridge (SC) - Edinburgh, UK",23 Cliftonhall Road,Edinburgh,Scotland,United Kingdom,16,250.0,49,2020-12-17,55.93391,-3.407749
@@ -1536,7 +1520,6 @@ Nantong-Shimao Plaza,Nantong Shimao 101 Xindong Rd,Nantong,Jiangsu,China,4,120.0
 "Auburn, WA",1101 Outlet Collection Way SW,Auburn,WA,USA,12,150.0,25,2019-10-22,47.297976,-122.248274
 "Riverside - Canyon Springs Pkwy, CA",2755 Canyon Springs Pkwy,Riverside,CA,USA,16,250.0,486,2020-02-25,33.939957,-117.282508
 "Egilsstaðir, Iceland",Kaupvangur 7,Egilsstaðir,Eastern Region,Iceland,2,150.0,41,2021-06-11,65.259594,-14.407004
-"Fót, Hungary",Fehérk? utca 1.,Fót,Central Hungary,Hungary,12,250.0,124,2019-10-28,47.580072,19.16243
 "Huittinen, Finland","ABC gas station, Loimijoentie 89",Huittinen,Satakunta,Finland,6,250.0,50,2019-10-16,61.16844,22.680099
 "Larissa South, Greece","Fashion City Outlet, 4th km K. Karamanli Palaia Ave., EO1, Larisa",Larissa,Thessaly,Greece,8,250.0,77,2023-02-10,39.605426,22.441458
 "Anaheim - E Katella Ave, CA",2404 E Katella Ave,Anaheim,CA,USA,16,250.0,49,2019-12-24,33.805168,-117.882173
@@ -1553,7 +1536,6 @@ Nantong-Shimao Plaza,Nantong Shimao 101 Xindong Rd,Nantong,Jiangsu,China,4,120.0
 "South Padre Island, TX",100 Padre Blvd,South Padre Island,TX,USA,2,72.0,5,2019-11-12,26.081436,-97.16109
 "White Marsh, MD",5361 Nottingham Dr.,White Marsh,MD,USA,8,250.0,22,2020-06-26,39.373985,-76.443133
 "Forks, WA",100 Fern Hill Rd,Forks,WA,USA,8,250.0,93,2020-03-30,47.942522,-124.384748
-"Brno, Czech Republic",U dálnice 777,Mod?ice,South Moravian,Czech Republic,8,250.0,190,2019-12-06,49.138336,16.630748
 "Leeds - Whitehouse St (SC), UK",7 Whitehouse Street,Leeds,England,United Kingdom,8,250.0,26,2020-08-05,53.784591281445174,-1.532506942749
 "Woodcliff Lake, NJ",441 Chestnut Ridge Rd,Woodcliff Lake,NJ,USA,8,250.0,127,2021-02-12,41.04175,-74.073701
 "Conifer, CO",25637 Conifer Rd,Conifer,CO,USA,8,250.0,2465,2020-09-05,39.544083,-105.289972
@@ -1563,7 +1545,6 @@ Nantong-Shimao Plaza,Nantong Shimao 101 Xindong Rd,Nantong,Jiangsu,China,4,120.0
 "Gilman, IL",1043 S Crescent St,Gilman,IL,USA,8,250.0,199,2020-05-06,40.752202,-87.996464
 "Panama City Beach, FL",14100 Panama City Beach Parkway,Panama City Beach,FL,USA,8,250.0,9,2020-08-28,30.211432,-85.849367
 "Seljord, Norway",Ingrid Slettens veg 20 by Sjøormen Kro,Seljord,Vestfold og Telemark,Norway,12,250.0,123,2022-06-09,59.48116271911978,8.6362650990486
-"Trzebownisko, Poland",Hotel Blue Diamond Active SPA,Nowa Wie?,Subcarpathia,Poland,4,150.0,197,2020-04-25,50.089246,22.045561
 "Tarragona, Spain",La Boella Tarragona exit 12 Autovia T-11,Tarragona,Catalonia,Spain,2,150.0,52,2015-07-31,41.134294,1.1683
 "Madera - Ave 7, CA",32685 Ave 7,Madera,CA,USA,16,250.0,87,2022-02-08,36.851569,-119.950611
 "Miami - SW 124th Ave, FL",8521 SW 124th Ave,Miami,FL,USA,12,250.0,2,2022-09-02,25.689099,-80.393365
@@ -1590,7 +1571,6 @@ Nantong-Shimao Plaza,Nantong Shimao 101 Xindong Rd,Nantong,Jiangsu,China,4,120.0
 "Chengdu - Wuyue Plaza, China",Northwest corner at the intersection of Wuhou Avenue and Wuer Road,"Wuhou District, Chengdu",Sichuan,China,10,150.0,495,2020-03-31,30.6258049,103.988644
 "Peterborough - Lansdowne St W, ON",645 Lansdowne St W,Peterborough,ON,Canada,12,250.0,193,2020-08-06,44.28343,-78.332347
 "Manhattan - Vesey St, NY",250 Vesey St,New York,NY,USA,4,72.0,6,2020-01-28,40.714062,-74.015837
-"Radom, Poland",Toru?ska 3,Radom,Masovia,Poland,4,120.0,174,2020-01-15,51.379569,21.125477
 "Gympie, QLD",Cnr Nash and Monkland St,Gympie,Qld,Australia,4,150.0,63,2020-04-06,-26.188285,152.661475
 "Hilton Park - Southbound, UK",M6 southbound between Junction 10A and 11,Wolverhampton,England,United Kingdom,12,150.0,150,2020-08-05,52.644074,-2.054209
 "Wallace, NC",River Village Place,Island Creek,NC,USA,8,150.0,15,2018-06-16,34.756276,-77.948019
@@ -1601,7 +1581,6 @@ Nantong-Shimao Plaza,Nantong Shimao 101 Xindong Rd,Nantong,Jiangsu,China,4,120.0
 "Sydney - Macquarie Park, NSW",Cnr Herring Rd & Waterloo Rd,Macquarie Park,NSW,Australia,10,150.0,47,2020-03-05,-33.777217,151.12088
 "Jinan - Huashan Huanyu City, China","B2 Floor, Huashan Huanyucheng, No. 1668, Jiangjun Road, Licheng District, Jinan City, Shandong",Jinan,Shandong,China,3,250.0,23,2022-12-09,36.722574,117.060314
 "Shanghai - Gubei 1699, China",1699 Gubei Road,Minhang District,Shanghai,China,10,120.0,4,2020-03-29,31.188757751934183,121.40182256698
-"Katowice - Jankego, Poland","Genera?a Zygmunta Waltera Jankego, 15c",Katowice,Silesia,Poland,4,150.0,289,2020-03-30,50.220179,18.990308
 "Alexandria, MN",4404 State Hwy 29,Alexandria,MN,USA,8,250.0,427,2020-02-14,45.850405,-95.388969
 "Livonia, MI",13000 Middlebelt Rd,Livonia,MI,USA,10,150.0,193,2018-01-20,42.379485,-83.32954
 "Pittsburgh, PA",5550 Centre Ave,Pittsburgh,PA,USA,8,72.0,270,2020-10-21,40.456432,-79.934125
@@ -1799,7 +1778,6 @@ Nantong-Shimao Plaza,Nantong Shimao 101 Xindong Rd,Nantong,Jiangsu,China,4,120.0
 "Lugo, Spain","Av. Infanta Elena, 213",Lugo,Galicia,Spain,14,250.0,463,2020-10-28,43.0364661,-7.5690078
 "Mt. Shasta - 134 Morgan Way, CA",134 Morgan Way,Mt. Shasta,CA,USA,16,150.0,1070,2018-01-04,41.310348,-122.316039
 "Baker City, OR",1 Sunridge Ln,Baker City,OR,USA,8,150.0,1044,2015-06-25,44.782849,-117.812422
-"Lohas Park, Hong Kong","1 Lohas Park Road, , ?? ??? ???1?","Tseung Kwan O, New Territories",Hong Kong,China,3,250.0,8,2020-08-23,22.296873,114.269887
 "Huntsville, ON",70 King William St,Huntsville,ON,Canada,8,150.0,300,2016-09-30,45.333611,-79.206703
 "San Diego - Qualcomm, CA",10105 Pacific Heights Blvd,San Diego,CA,USA,12,150.0,88,2015-06-08,32.902137,-117.193489
 "Tailem Bend, SA",543 Dukes Hwy,Tailem Bend,SA,Australia,6,250.0,16,2022-01-14,-35.303956,139.501292
@@ -1820,7 +1798,6 @@ Nantong-Shimao Plaza,Nantong Shimao 101 Xindong Rd,Nantong,Jiangsu,China,4,120.0
 "Cupertino - Stevens Creek Blvd, CA",20745 Stevens Creek Blvd,Cupertino,CA,USA,28,250.0,76,2020-11-17,37.324722,-122.03684
 "Guangzhou - Hampton by Hilton Guangzhou Huadu, China","Floor 1, Basement Car Park, Hampton by Hilton, No. 91 Sandong Avenue, Huadu District",Guangzhou,Guangdong,China,6,250.0,13,2021-01-22,23.41626,113.235036
 "Elizabeth, NJ",651 Kapkowski Rd,Elizabeth,NJ,USA,16,250.0,6,2020-08-25,40.662806,-74.173611
-"Kostom?oty, Poland",Droga Krajowa 5,Kostom?oty,Lower Silesia,Poland,4,150.0,160,2016-04-26,51.036946,16.583294
 "Newark - Old Baltimore Pike, DE",865 S Old Baltimore Pike,Newark,DE,USA,8,250.0,19,2023-03-17,39.642686,-75.729226
 "Xi'an - Qujiang Yintai Experience Store, China","Area B, Floor B, No. 410, Qujiang Yintai City, No. 410, Yannan 2nd Road, Yanta District",Xi'an,Shaanxi,China,14,120.0,433,2021-01-22,34.213224,108.971182
 "San Clemente - Av. Vista Hermosa, CA",990 Avenida Vista Hermosa,San Clemente,CA,USA,16,250.0,124,2020-10-01,33.463091,-117.60783
@@ -1863,7 +1840,6 @@ Nantong-Shimao Plaza,Nantong Shimao 101 Xindong Rd,Nantong,Jiangsu,China,4,120.0
 "Elverum West, Norway",By McDonalds/Extra at Torolf Storsveens veg 22/26,Elverum,Innlandet,Norway,28,250.0,199,2022-12-04,60.887582,11.515705
 "Flemington, NJ",20 NJ-31,Flemington,NJ,USA,8,250.0,48,2021-05-06,40.505245,-74.851828
 "Crystal River, FL",509 US-19,Crystal River,FL,USA,8,250.0,3,2021-05-06,28.899556,-82.586778
-"Pozna?, Poland","City Park Hotel & Residence, Wyspia?skiego 26A",Pozna?,Greater Poland,Poland,6,150.0,85,2016-12-19,52.400285,16.893091
 "Jacksonville - Philips Hwy, FL",5735 Philips Hwy,Jacksonville,FL,USA,12,250.0,7,2021-07-23,30.265516,-81.617034
 "Meerkerk, Netherlands",Energieweg 116,Meerkerk,Utrecht,Netherlands,24,250.0,0,2020-12-16,51.899615,4.982857
 "Baltimore - McHenry Row, MD",1641 Whetstone Way,Baltimore,MD,USA,8,72.0,6,2018-10-25,39.268454,-76.59925
@@ -2036,7 +2012,6 @@ Nantong-Shimao Plaza,Nantong Shimao 101 Xindong Rd,Nantong,Jiangsu,China,4,120.0
 "California, MD",44900 St Andrews Church Rd,California,MD,USA,8,250.0,37,2021-05-13,38.302946,-76.522367
 "Newnan, GA",555 Bullsboro Dr,Newnan,GA,USA,12,250.0,285,2021-03-17,33.393341,-84.759097
 "Brinkley, AR",Pine Crest Shopping Center,Brinkley,AR,USA,8,250.0,66,2021-03-18,34.904944,-91.200056
-"Lu?mierz, Poland",Lanowa 4,Lucmierz,?ód?,Poland,8,250.0,145,2021-05-13,51.887,19.384297
 "Taipei - Nangang Exhibition Hall 2, Taiwan","No. 2, Jingmao 2nd Road, Nangang District",Taipei City,Taipei,Taiwan,6,250.0,10,2021-01-20,25.056849,121.614709
 "Norfolk - N Military Hwy, VA",6301 N Military Hwy,Norfolk,VA,USA,8,250.0,5,2021-07-13,36.897383,-76.226511
 "Sollentuna, Sweden","by Max burger, Breddenvägen",Sollentuna,Uppland,Sweden,14,250.0,18,2014-11-27,59.496093,17.924441
@@ -2174,7 +2149,6 @@ Nantong-Shimao Plaza,Nantong Shimao 101 Xindong Rd,Nantong,Jiangsu,China,4,120.0
 "Jiaxing - Haining Wanduo City, China","Wanduo City (corner of Changfeng Road and Haichang South Road), Haining, Jiaxing City, Zhejiang",Jiaxing,Zhejiang,China,6,250.0,5,2022-09-20,30.494348,120.688741
 "Guangzhou - Jianhuahui Commercial Center 3, China","No. 3, Jianhuahui Commercial Center, No. 9 Jianhua Road, Dashi, Panyu District, Guangzhou",Guangzhou,Guangdong,China,6,250.0,3,2022-09-20,23.02303599,113.3168739
 "Tianjin - Macda Wyndham Hotel, China","Intersection of Tonghe Avenue and Central Avenue, Airport Development Zone, Dongli District, Tianjin",Tianjin,Tianjin,China,6,150.0,3,2022-09-20,39.157071,117.391808
-"Qujing - Henji Mountain Service Area, Yunnan (Kunming Direction), China","Henji Mountain Service Area of ??Shankun Expressway, Luliang County, Qujing City, Yunnan",Qujing,Yunnan,China,3,250.0,1870,2022-09-20,24.947983,103.577213
 "Xi'an - Vanke Golden Mile International, China","B2, Vanke Jinyu International Enterprise HQ, Keji 3rd Road, Yanta District, Xi'an",Xi'an,Shaanxi,China,6,150.0,410,2022-09-20,34.225711,108.900033
 "Denton - S I-35 E, TX",2800 S Interstate 35 E,Denton,TX,USA,8,250.0,196,2023-05-22,33.178819,-97.101846
 "Gilroy - Camino Arroyo, CA",6705 Camino Arroyo,Gilroy,CA,USA,12,250.0,57,2020-11-26,37.000817,-121.554338
@@ -2303,7 +2277,6 @@ Nantong-Shimao Plaza,Nantong Shimao 101 Xindong Rd,Nantong,Jiangsu,China,4,120.0
 "Beijing - Jingliang Plaza, China","Underground Garage, Jingliang Plaza, No. 43 Tiancun Road, Haidian District",Beijing,Beijing,China,6,120.0,58,2021-01-22,39.9361,116.2606
 "Rizhao - Wanxianghui, China","LG Floor, China Resources Vientiane, No. 176, Yantai Road, Donggang District",Rizhao,Shandong,China,9,250.0,14,2021-01-22,35.426776,119.538986
 "Hangzhou - COFCO Joy City, China","Underground Parking Lot, No. 1 Yinxiu Road, Gongshu District",Hangzhou,Zhejiang,China,8,120.0,11,2021-01-22,30.30816,120.136986
-"Dongguan - Tianan Digital T5 International Conference Center, China","Downstairs of Building N6, Ground Parking Lot, Tian'an Cyber ??Park, Fenggang",Dongguan,Guangdong,China,8,120.0,53,2021-01-22,22.7003,114.1836
 "Shanghai - Wuxin Hefeng Plaza, China","No. 1388 Jiangyue Road, Minhang District",Shanghai,Shanghai,China,6,120.0,4,2021-01-22,31.091,121.5213
 "Dongfang - Oriental Aoyue Licheng Hotel, China",Fulong Middle Road,Dongfang,Hainan,China,4,120.0,24,2021-01-22,19.1071,108.683
 "Shenyang - DoubleTree by Hilton, China","No. 58, Huanao Road, Shenhe District",Shenyang,Liaoning,China,6,250.0,55,2021-01-22,41.7928,123.4559
@@ -2575,7 +2548,6 @@ Shenzhen - Zhongzhou Holding Center. China,"Ground parking lot of Zhongzhou Hold
 "Melbourne - Richmond, VIC",650 Church Street,Richmond,Vic,Australia,4,150.0,16,2015-05-15,-37.831997,144.995807
 "Montgomery, AL",2576 Berryhill Rd,Montgomery,AL,USA,12,250.0,74,2021-10-04,32.361192,-86.161314
 "Kernersville, NC",1551 Glenn Center Dr,Kernersville,NC,USA,8,250.0,294,2022-04-01,36.069842,-80.112057
-"Tokyo - Akasaka, Japan",???????1??12-33,Minato,Tokyo,Japan,4,150.0,18,2021-03-22,35.668171,139.740384
 "Prince George, BC",3030 Recplace Dr,Prince George,BC,Canada,6,250.0,595,2021-11-03,53.890728,-122.767745
 "Saskatoon, SK",3035 Clarence Avenue South,Saskatoon,SK,Canada,6,250.0,503,2021-10-19,52.088291,-106.64237
 "San Jose - Santana Row (Valet), CA",330 Winchester Blvd,San Jose,CA,USA,10,72.0,41,2019-02-02,37.321459,-121.948969
@@ -2655,7 +2627,6 @@ Shenzhen - Zhongzhou Holding Center. China,"Ground parking lot of Zhongzhou Hold
 "The Fullerton Ocean Park Hotel, Hong Kong","3 Ocean Drive, Aberdeen, Hong Kong Island",Hong Kong,Hong Kong,China,3,250.0,10,2022-07-06,22.236538,114.166217
 "Kösching, Germany",Ruppertswies 4,Kösching,Bavaria,Germany,20,250.0,384,2022-10-08,48.811375,11.479891
 "Erftstadt, Germany","An der Patria, across from Jet gas station",Erftstadt,North Rhine-Westphalia,Germany,28,250.0,100,2015-12-08,50.796469,6.780077
-"Timi?oara, Romania",Bulevardul Revolu?iei din 1989 2A,Timi?oara,Vest,Romania,6,250.0,90,2021-04-14,45.755123,21.233001
 "Downey - Stonewood St, CA",251 Stonewood St,Downey,CA,USA,12,72.0,35,2018-06-30,33.934643,-118.12117
 "Pointe Claire, QC",6815 Route Canadienne,Pointe Claire,QC,Canada,20,150.0,50,2018-06-30,45.464212,-73.828203
 "Kennebunk - Northbound, ME",Maine Turnpike,Kennebunk,ME,USA,8,150.0,29,2018-06-14,43.409493,-70.558551
@@ -2717,7 +2688,6 @@ Shenzhen - Zhongzhou Holding Center. China,"Ground parking lot of Zhongzhou Hold
 "Italy, TX",1021 Dale Evans Dr,Italy,TX,USA,10,150.0,182,2017-09-25,32.194947,-96.89875
 "Pedricktown - John Fenwick, NJ","John Fenwick Travel Plaza, New Jersey Tpke Mile Marker 5.4",Pedricktown,NJ,USA,8,250.0,14,2021-03-30,39.696093,-75.395823
 "West Hollywood, CA",8775 Sunset Blvd,West Hollywood,CA,USA,8,250.0,109,2022-09-02,34.091635,-118.382241
-"Bucharest, Romania",Calea Floreasca,Bucure?ti,Bucure?ti,Romania,6,250.0,82,2021-04-16,44.478187,26.103421
 "Bay Shore, NY",838 Sunrise Hwy,Bay Shore,NY,USA,12,250.0,11,2022-11-26,40.727358,-73.276843
 "North Battleford, SK",9800 Territorial Dr,North Battleford,SK,Canada,6,250.0,528,2021-10-27,52.790462,-108.302261
 "Cambridge, MA",100 Cambridgeside Place,Cambridge,MA,USA,8,72.0,1,2017-12-29,42.368483,-71.076189
@@ -2747,7 +2717,6 @@ Shenzhen - Zhongzhou Holding Center. China,"Ground parking lot of Zhongzhou Hold
 "Chipley, FL",1698 Main St,Chipley,FL,USA,8,250.0,43,2023-04-19,30.751833,-85.551682
 "Cottondale, AL",6400 Interstate Dr,Cottondale,AL,USA,8,250.0,91,2022-02-18,33.175259,-87.449694
 "Lexington - E Nelson St, VA",600 E Nelson Street,Lexington,VA,USA,8,250.0,316,2023-03-27,37.778564,-79.434062
-"Cluj Napoca, Romania",Strada Avram Iancu 500,Flore?ti,Nord-Vest,Romania,8,250.0,362,2022-11-25,46.753784,23.532768
 "Sillekrog, Sweden","OKQ8, Lästringe Sillekrog",Tystberga,Södermanland,Sweden,8,150.0,53,2014-12-03,58.918156,17.367987
 "Kearney, NE",815 2nd Ave E,Kearney,NE,USA,8,250.0,654,2022-07-26,40.6822,-99.0834
 "Lugano Sud, Switzerland","Calzedonia, Via Cantonale",Grancia,Ticino,Switzerland,12,250.0,298,2022-07-23,45.974786,8.92796
@@ -2872,7 +2841,6 @@ Shenzhen - Zhongzhou Holding Center. China,"Ground parking lot of Zhongzhou Hold
 "Craig, CO",700 E Victory Way,Craig,CO,USA,8,250.0,1886,2021-02-12,40.513995,-107.538785
 "Chowchilla, CA",1225 East Robertson Blvd,Chowchilla,CA,USA,12,250.0,75,2023-04-27,37.126287,-120.247428
 "Kettleman City - Bernard Dr, CA",Bernard Dr,Kettleman City,CA,USA,55,250.0,104,2021-11-21,35.9861622,-119.957565
-"Plze?, Czech Republic",Univerzitní 65,Plze?,Plze?,Czech Republic,6,150.0,359,2021-05-27,49.72515,13.326257
 "East Hampton, NY",8 Osborne Ln,East Hampton,NY,USA,12,250.0,14,2022-03-27,40.965501,-72.189633
 "San Diego - Carmel Mountain Rd, CA",4639 Carmel Mountain Rd,San Diego,CA,USA,24,250.0,94,2022-05-10,32.920824,-117.21491
 "Trumpington, UK",Trumpington Park and Ride,Trumpington,England,United Kingdom,12,250.0,20,2021-06-28,52.1682,0.1091
@@ -2887,7 +2855,6 @@ Shenzhen - Zhongzhou Holding Center. China,"Ground parking lot of Zhongzhou Hold
 "Columbia, NJ",19 Simpson Rd,Columbia,NJ,USA,8,250.0,96,2021-11-16,40.933846,-75.100997
 "Quesnel, BC",890 Rita Rd,Quesnel,BC,Canada,8,250.0,613,2021-10-01,52.965303,-122.440265
 "Ellwangen - Hotel Montana, Germany",Max-Eyth-Straße 50,Ellwangen,Baden-Württemberg,Germany,8,250.0,512,2020-12-01,48.959165,10.173534
-"Pite?ti, Romania",DN65B F4,Pite?ti,Sud-Muntenia,Romania,6,250.0,294,2021-06-29,44.823832,24.910667
 "Elgin, IL",815 S Randall Rd,Elgin,IL,USA,12,250.0,253,2022-10-19,42.012497,-88.335638
 "Berthierville, QC",860 Av. Gabriel-Brissette,Berthierville,QC,Canada,8,250.0,8,2022-11-21,46.0868,-73.197
 "Yaizu, Japan","Yaizu Fish Center, 4-13-7 Yakusu, Yaizu",Yaizu,Shizuoka,Japan,6,250.0,7,2022-12-13,34.880012,138.302483
@@ -2914,7 +2881,6 @@ Shenzhen - Zhongzhou Holding Center. China,"Ground parking lot of Zhongzhou Hold
 "McDonough, GA","South Point Shopping Center, 1380 GA-20 West",McDonough,GA,USA,12,250.0,267,2021-07-09,33.425818,-84.18787
 "Carlsbad - Paseo Del Norte, CA",5620 Paseo Del Norte,Carlsbad,CA,USA,16,250.0,23,2021-08-18,33.124351,-117.31912
 "Bracebridge, ON",40 Depot Dr,Bracebridge,ON,Canada,8,250.0,289,2022-11-30,45.048688,-79.291012
-"Sibiu, Romania",Strada Sibiului 5,?elimb?r,Centru,Romania,6,250.0,424,2021-06-30,45.77615,24.171844
 "Madoc, ON",114 Bonjour Blvd,Madoc,ON,Canada,8,250.0,173,2022-11-30,44.5128,-77.481
 "Seoul - Guro, South Korea","38 Digital-ro 26-gil, Guro-gu",Seoul,Seoul,South Korea,9,250.0,18,2021-06-17,37.47984,126.8953
 "Taichung - Shuinan Aimai, Taiwan","Room 407, 5th Floor, No. 1199, Section 2, Zhongqing Road, Taichung",Taichung City,Taichung,Taiwan,4,120.0,121,2021-06-16,24.192657,120.65993
@@ -3132,7 +3098,6 @@ Shenzhen - Zhongzhou Holding Center. China,"Ground parking lot of Zhongzhou Hold
 "Limburg an der Lahn, Germany",Vinzenz-Pallotti-Straße 1,Limburg,Hesse,Germany,20,250.0,184,2022-05-22,50.381138,8.089637
 "Tampa - E Hillsborough Ave, FL",7408 E Hillsborough Ave,Tampa,FL,USA,8,250.0,11,2022-03-29,27.996805,-82.372668
 "Uiwang, South Korea","1039, Hakui-dong",Uiwang,Gyeonggi,South Korea,3,250.0,86,2021-09-10,37.375635,127.00947
-"Bialystok, Poland",?wi?toja?ska 15,Bialystok,Podlasie,Poland,6,250.0,141,2021-10-05,53.1258244,23.1699803
 "Flimwell, UK","Hawkhurst Rd, Ticehurst",Wadhurst,England,United Kingdom,6,250.0,125,2021-10-01,51.05251,0.45483
 "Tampa - East Bearss Ave, FL",804 E Bearss Ave,Tampa,FL,USA,8,250.0,19,2022-08-28,28.088551,-82.4521
 "Lujiangba Service Area (westbound), Baoshan, China",Lujiangba Service Area. Hangrui Expressway,"Lujiangzhen, Longyang District, Baoshan",Yunnan,China,3,250.0,758,2021-09-21,24.926993640662076,98.87672672806
@@ -3386,14 +3351,12 @@ Shenzhen - Zhongzhou Holding Center. China,"Ground parking lot of Zhongzhou Hold
 "Mornington, VIC",61 Mornington-Tyabb Rd,Mornington,Vic,Australia,6,250.0,45,2021-12-14,-38.234339,145.050999
 "Melbourne, FL",4429 W Eau Gallie Blvd,Melbourne,FL,USA,8,250.0,6,2022-03-31,28.119865,-80.699588
 "Surrey - 104 Ave, BC",15615 104 Ave,Surrey,BC,Canada,12,250.0,82,2021-12-16,49.19227,-122.788412
-"Gwanggyo, South Korea","269 ??Beopjo-ro 149beon-gil, Suwon-si",Suwon,Gyeonggi,South Korea,3,250.0,65,2021-10-21,37.293423,127.070231
 "South Surrey, BC",3033 152 St,Surrey,BC,Canada,12,250.0,44,2022-01-31,49.056683,-122.80165
 "Stuart, FL",2401 S Kanner Hwy,Stuart,FL,USA,8,250.0,2,2022-02-21,27.175517,-80.252532
 "New Minas, NS",5477 Prospect Rd,New Minas,NS,Canada,8,250.0,79,2022-07-15,45.056877,-64.469561
 "Davie, FL",1904 S University Dr,Davie,FL,USA,8,250.0,1,2021-11-19,26.0923282,-80.2496536
 "Rimouski, QC",395 Av. Sirois,Rimouski,QC,Canada,8,250.0,40,2022-09-30,48.435477,-68.523861
 "Castaic, CA",29435 The Old Rd,Castaic,CA,USA,12,250.0,315,2022-08-13,34.452312,-118.61614
-"Zvolen, Slovakia","Letecká 19, 962 31 Slia?-Sielnica",Zvolen,Banská Bystrica,Slovakia,4,125.0,335,2016-01-13,48.627379,19.103481
 "Böblingen, Germany",Charles-Lindbergh-Platz 1,Böblingen,Baden-Württemberg,Germany,16,250.0,431,2021-12-01,48.69154,9.003734
 "Burbank - N San Fernando Blvd, CA",1009 N San Fernando Blvd,Burbank,CA,USA,8,250.0,185,2022-10-14,34.187565,-118.318197
 "Aosta, Italy - A5 dir. Mont-Blanc","Località Autoporto, 33B",Pollein,Aosta Valley,Italy,6,150.0,544,2015-05-22,45.73732,7.373068
@@ -3430,7 +3393,6 @@ Shenzhen - Zhongzhou Holding Center. China,"Ground parking lot of Zhongzhou Hold
 "Newark, DE",530 JFK Memorial Hwy,Newark,DE,USA,12,150.0,18,2012-12-21,39.6635,-75.69017
 "Cobourg, ON","1125 Elgin Street West, Highway 2",Cobourg,ON,Canada,8,250.0,101,2022-11-23,43.969733,-78.203776
 "Tenterfield, NSW",162 Rouse St,Tenterfield,NSW,Australia,4,250.0,845,2022-12-14,-29.056062,152.017666
-"Krakow, Poland",Henryka Kamie?skiego 11,Kraków,Lesser Poland,Poland,4,133.0,225,2022-07-10,50.028017,19.950902
 "Avenel, NJ",930 US Highway 1 North,Avenel,NJ,USA,12,250.0,26,2022-08-10,40.576793,-74.287572
 "Bardonecchia, Italy","A32 km 73, Frejus service area, Bardonecchia",Bardonecchia,Piedmont,Italy,8,250.0,1297,2022-03-16,45.082194,6.711208
 "Grapevine, TX",1001 Northwest Hwy,Grapevine,TX,USA,12,250.0,187,2021-04-07,32.941942,-97.065861
@@ -3620,7 +3582,6 @@ Shenzhen - Zhongzhou Holding Center. China,"Ground parking lot of Zhongzhou Hold
 "Taichung - Taroko New Era, Taiwan","No. 186, Section 4, Fuxing Road, Taichung 401",Taichung,Taichung,Taiwan,4,250.0,72,2022-11-11,24.135916,120.687776
 "Grapevine - E Northwest Hwy, TX",477 E Northwest Highway,Grapevine,TX,USA,8,250.0,186,2023-04-12,32.941334,-97.073611
 "Shanghai - Sunshine Riverside Center, China","B3, Sunshine Riverside Center, No. 899, Ruining Road, Xuhui District, Shanghai",Shanghai,Shanghai,China,9,250.0,8,2022-10-31,31.180037,121.459185
-"Kobe - North, Japan","1-16-1 Nishiyama, Kita-ku, Kobe",Kobe,Hy?go,Japan,6,250.0,7,2022-12-16,34.835567,135.217935
 "Changsha - Dahan Jinqiao International Future City, China","Dahan Jinqiao International Future City, No. 188, Purui West Road, Wangcheng District, Changsha",Changsha,Hunan,China,3,250.0,45,2022-11-01,28.29351575,112.8386838
 "Yiwu - Xijing Future Commercial Plaza, China","B2, Xijing Future Commercial Plaza, No. 1533, Xuefeng West Road, Yiwu City, Jinhua City, Zhejiang",Yiwu,Zhejiang,China,3,250.0,80,2022-11-01,29.30539028,120.0170015
 "Guangzhou - Fashion Tianhe Commercial Plaza, China","B2F, Fashion Tianhe Commercial Plaza, 299 Tianhe Road, Tianhe District, Guangzhou City, Guangdong",Guangzhou,Guangdong,China,6,250.0,3,2022-11-14,23.135319,113.324822
@@ -3669,7 +3630,6 @@ Shenzhen - Zhongzhou Holding Center. China,"Ground parking lot of Zhongzhou Hold
 "Noyelles-Godault, France",Aushopping Noyelles,Noyelles-Godault,Hauts-de-France,France,24,250.0,39,2023-01-16,50.409519,2.9752786
 "Carlsbad - Van Allen Way, CA",5806 Van Allen Way,Carlsbad,CA,USA,8,250.0,75,2023-05-04,33.13507,-117.288012
 "Long Beach - Long Beach Blvd, CA",6590 Long Beach Blvd,Long Beach,CA,USA,8,250.0,18,2023-05-09,33.87396,-118.202413
-"Kaunas, Lithuania",Inovacij? g. 1,Birulik?s,Kaunas,Lithuania,8,250.0,75,2021-09-17,54.942153,24.006411
 "Chesterton, IN",704 Plaza Dr,Chesterton,IN,USA,12,250.0,194,2023-03-15,41.617607,-87.044702
 "Hualien - Chateau de Chine, Taiwan","Shunxing Road, Hualien County",Hualien,Hualien,Taiwan,4,120.0,35,2018-02-27,23.992627,121.627654
 "Åre, Sweden",Årevägen 53,Åre,Jämtland,Sweden,6,250.0,377,2023-02-09,63.395234,13.087787
@@ -3700,7 +3660,6 @@ Shenzhen - Zhongzhou Holding Center. China,"Ground parking lot of Zhongzhou Hold
 "Malvern, PA",5 Matthews Rd,Malvern,PA,USA,8,250.0,92,2023-03-16,40.050647,-75.525104
 "Maple Ridge - Dewdney Trunk Road, BC",22441 Dewdney Trunk Rd,Maple Ridge,BC,Canada,12,250.0,38,2023-01-19,49.220623,-122.600845
 "Downingtown, PA",5031 Horseshoe Pike,Downingtown,PA,USA,8,250.0,78,2022-12-13,40.012206,-75.721504
-"Edirne, Turkey","?ükrüpa?a, K?y?k Cd. No:254, 22030 Edirne Merkez/Edirne,",Edirne,Marmara,Turkey,6,250.0,119,2023-04-04,41.6802,26.582326
 "Hohhot - Haixi Road Tesla Center, China","Hengmao Automobile Center, Hailar West Street, Huimin District, Hohhot",Hohhot,Inner Mongolia,China,3,250.0,1058,2022-09-10,40.830091,111.625438
 "Wuhan - Dongxihu Tesla Center, China","No. 71, Zhiya Road, Lingkong Avenue, Dongxihu District, Wuhan",Wuhan,Hubei,China,6,250.0,24,2022-09-10,30.652623,114.142336
 "Las Vegas - Cambridge St, NV",3356 South University Center Drive,Las Vegas,NV,USA,8,250.0,617,2023-05-26,36.12875,-115.143823
@@ -3808,10 +3767,8 @@ Langfang - Gu'an Shangpin Aigou City Plaza. China,"B2, G/F, Shangpin Aigo City P
 "Yuyao - Yuyao Hotel, China","Yuyao Hotel Road Parking Lot, No. 108, Shunshui South Road, Yuyao",Yuyao,Zhejiang,China,10,150.0,8,2022-09-14,30.043158,121.148472
 "Zhoushan - Hilton Hotel, China","Hilton Hotel, No. 777, Haizhou Road, Putuo District, Zhoushan City, Zhejiang",Zhoushan,Zhejiang,China,6,250.0,0,2022-09-20,29.982443,122.325897
 "Jiaxing - DoubleTree by Hilton, China","DoubleTree by Hilton Hotel, No. 688 Juxian Road, Xiuzhou District, Jiaxing City, Zhejiang",Jiaxing,Zhejiang,China,6,250.0,5,2022-09-20,30.76908066,120.6966229
-"Qujing - Henji Mountain Service Area, Yunnan (Guizhou Direction), China","Henji Mountain Service Area of ??Shankun Expressway, Luliang County, Qujing City, Yunnan",Qujing,Yunnan,China,3,250.0,1869,2022-09-20,24.946428,103.57805
 "Wanning - First Outlet, China","Capital Outlets, No. 1 Lianxing Avenue, Wanning City, Hainan",Wanning,Hainan,China,9,250.0,30,2022-09-20,18.72627469,110.2968083
 "Mount Gambier, SA",1 Ramsay Ave,Mount Gambier,SA,Australia,6,250.0,43,2022-10-01,-37.834715,140.80268
-"Lublin, Poland","SKENDE Shopping, Aleja Spó?dzielczo?ci Pracy 88, 20-147 Lublin, Poland",Lublin,Lublin,Poland,4,250.0,211,2022-10-03,51.28216,22.570014
 "Hangzhou - Zhejiang University Forest, China","No. 3, Xiyuan 8th Road, Xihu District, Hangzhou City, Zhejiang",Hangzhou,Zhejiang,China,6,250.0,5,2022-09-14,30.310297,120.062065
 "Yangzhou - Crowne Plaza, China","B1, Crowne Plaza Yangzhou, No. 3 Wenchang East Road, Guangling District, Yangzhou City, Jiangsu",Yangzhou,Jiangsu,China,6,250.0,7,2022-09-15,32.395324,119.4735305
 "Sutton, WV",2001 Sutton Ln,Sutton,WV,USA,8,250.0,324,2022-10-03,38.700389,-80.664472
@@ -3927,8 +3884,6 @@ Langfang - Gu'an Shangpin Aigou City Plaza. China,"B2, G/F, Shangpin Aigo City P
 "Richmond - Pierce St, CA",3288 Pierce St,Richmond,CA,USA,16,250.0,4,2020-05-30,37.898736,-122.308672
 "Shanghai - Xuhui Greenland Colorful City, China","B3, No. 759, Longhua Middle Road, Xuhui District, Shanghai",Shanghai,Shanghai,China,6,250.0,7,2022-09-22,31.19106,121.463837
 "Zhaoqing - Sihui Square, China","Sihui Square, South Sihui Avenue, Sihui City, Zhaoqing",Zhaoqing,Guangdong,China,6,250.0,4,2022-09-22,23.31841937,112.7292838
-"Xuanwei - Baoshan Service Area (Kunming direction), China","Baoshan Service Area (Kunming direction) of ??G56 Hangrui Expressway in Xuanwei City, Yunnan",Xuanwei,Yunnan,China,3,250.0,2009,2022-09-22,26.310339,104.511577
-"Xuanwei - Baoshan Service Area (Guizhou direction), China","Baoshan Service Area (Guizhou direction) of ??G56 Hangrui Expressway in Xuanwei City, Yunnan",Xuanwei,Yunnan,China,3,250.0,2009,2022-09-22,26.30933,104.511588
 "Tianjin - Jinmen Lake New Energy Vehicle Comprehensive Service Center, China","Jinmen Lake New Energy Vehicle Comprehensive Service Center, Cuibo Road, Xiqing District, Tianjin",Tianjin,Tianjin,China,9,250.0,3,2022-09-22,39.06338238,117.2100979
 "Richmond - Steveston Hwy, BC",11666 Steveston Hwy,Richmond,BC,Canada,8,250.0,2,2022-12-02,49.132689,-123.09498
 "Plano - W Spring Creek Pkwy, TX",7040 W Spring Creek Pkwy,Plano,TX,USA,8,250.0,203,2023-03-02,33.08204,-96.850233
@@ -4079,7 +4034,6 @@ Langfang - Gu'an Shangpin Aigou City Plaza. China,"B2, G/F, Shangpin Aigo City P
 "Kunming - Anning Wuyue Plaza, China","B2, Wuyue Plaza, No. 116 Jinfang Road, Anning City, Kunming City, Yunnan",Kunming,Yunnan,China,6,250.0,1836,2022-09-22,24.9255292,102.4835545
 "Shenzhen - Sifang, China","Sifang Commercial Plaza, No. 80 Lougang Avenue, Bao'an District, Shenzhen, Guangdong",Shenzhen,Guangdong,China,6,250.0,3,2022-09-22,22.771492,113.858476
 "Huanggang - New Beacon Walden Hotel, China","No. 99, Huangzhou Avenue, Huangzhou District, Huanggang City, Hubei",Huanggang,Hubei,China,6,250.0,16,2022-09-22,30.439323,114.907146
-"Jiangmen - West Area of ??Dahuai Service Area (Zhanjiang Direction), China","Dahuai Service Area of ??Kaiyang Expressway, Enping City, Jiangmen City, Guangdong",Jiangmen,Guangdong,China,3,250.0,30,2022-09-22,22.076206,112.227118
 "Zhanjiang - Xuwen Xinghaiwan Hotel, China","Xuwen Xinghai Bay Hotel, Xuhai Road, Xuwen County, Zhanjiang City, Guangdong",Zhanjiang,Guangdong,China,6,250.0,32,2022-09-22,20.30807655,110.1932889
 "Dartmouth, MA",380 State Rd,Dartmouth,MA,USA,12,250.0,38,2022-05-14,41.642293,-70.99753
 "Foshan - Jinding Taifeng Hotel, China","Qiaojin Road and Chongmin Road, Xiqiao Town, Nanhai District, Foshan City, Guangdon",Foshan,Guangdong,China,6,250.0,6,2022-09-22,22.972635,112.982924
@@ -4104,7 +4058,6 @@ Langfang - Gu'an Shangpin Aigou City Plaza. China,"B2, G/F, Shangpin Aigo City P
 "Qiandong - Rongjiang Leyan Baiji Hotel, China","Leyan Baiji Hotel, Zhongxin Avenue, Rongjiang County, Qiandongnan",Qiandong,Guizhou,China,2,150.0,280,2022-09-22,25.9401685,108.530712
 "Jinan - Herui Plaza, China","B2, Herui Plaza, No. 5001, East Second Ring Road, Lixia District, Jinan City, Shandong",Jinan,Shandong,China,7,250.0,76,2022-09-22,36.662369,117.071616
 "Shanghai - Asia Pacific Shopping Plaza, China","Asia Pacific Shopping Plaza, No. 2002, Century Avenue, Pudong New Area, Shanghai",Shanghai,Shanghai,China,6,250.0,4,2022-09-22,31.21841303,121.5438258
-"Changsha - High Speed ??Rail Wuyue Plaza, China","B1, Wuyue Plaza, high-speed railway, Laodong East Road and Huahou Road, Yuhua District, Changsha",Changsha,Hunan,China,9,250.0,36,2022-09-22,28.15673699,113.058245
 "Shenzhen - Hongsong Building, China","Tairan 9th Road and Tairan 6th Road, Futian District, Shenzhen, Guangdong",Shenzhen,Guangdong,China,15,250.0,0,2022-09-22,22.53191921,114.0243942
 "Changsha - Shimao Boman, China","Yuelu Avenue and Yuebei Road, Yuelu District, Changsha City, Hunan",Changsha,Hunan,China,6,250.0,27,2022-09-22,28.22649608,112.9595133
 "Ningbo - Bodi Movie Show City, China","B1, Bodi Yingxiu City, Taishan Road and Renmin North Road, Beilun District, Ningbo",Ningbo,Zhejiang,China,9,250.0,2,2022-09-22,29.9,121.809
@@ -4222,7 +4175,6 @@ Langfang - Gu'an Shangpin Aigou City Plaza. China,"B2, G/F, Shangpin Aigo City P
 "Chongzuo - Wanxianghui, China","B1, Wanxianghui Store, Jiangzhou District, Chongzuo City, Guangxi",Chongzuo,Guangxi,China,3,250.0,153,2022-09-22,22.404321,107.408735
 "Manchester, NH",1111 South Willow St,Manchester,NH,USA,8,250.0,79,2023-04-17,42.961287,-71.439058
 "Xinduqiao - Heiqing Barley Manor, China","Heiqing Barley Manor, Xinduqiao Town, Kangding City, Ganzi Tibetan, Sichuan",Xinduqiao,Sichuan,China,2,150.0,3452,2022-09-22,30.025033,101.536743
-"Chengdu - High Speed ??Rail City Park, China","Yangliu Road High Speed ??Rail City Park, Chenghua District, Chengdu",Chengdu,Sichuan,China,6,250.0,500,2022-09-22,30.643336,104.154377
 "Shijiazhuang - Anyue Hotel, China","Anyue Hotel, No. 6 Anyue Street, Zhengding New District, Shijiazhuang City, Hebei",Shijiazhuang,Hebei,China,3,250.0,66,2022-09-22,38.127783,114.603243
 "Shanghai - Guohua Plaza, China","B2, Shanghai Guohua Plaza, No. 1599 Zhayin Road, Yangpu District, Shanghai",Shanghai,Shanghai,China,6,250.0,6,2022-09-22,31.31221636,121.5122509
 "Shanghai - Tangzhen Tesla Center, China","Ground parking lot, No. 1688, Gutang Road, Tang Town, Pudong New Area, Shanghai",Shanghai,Shanghai,China,6,250.0,4,2022-09-22,31.23373531,121.6624477
@@ -4558,8 +4510,6 @@ Langfang - Gu'an Shangpin Aigou City Plaza. China,"B2, G/F, Shangpin Aigo City P
 "St. Valentin, Austria","OMV St. Valentin, Rasthausstraße 3",St. Valentin,Lower Austria,Austria,8,125.0,263,2015-10-09,48.19653,14.527744
 "Machelen, Belgium",Culliganlaan 4,Machelen,Flemish Brabant,Belgium,8,73.0,42,2016-07-04,50.887736,4.453052
 "Kamenný Újezd, Czech Republic","520, Kamenný Újezd 520",Kamenný Újezd,South Bohemian,Czech Republic,8,250.0,486,2021-05-26,48.887612,14.436796
-"Lovosice, Czech Republic",Si?ejovická 233,Lovosice,Ústí nad Labem,Czech Republic,8,250.0,154,2021-05-27,50.511472,14.052583
-"Vestec, Czech Republic",Víde?ská 360,Vestec,Central Bohemian,Czech Republic,8,125.0,313,2017-09-24,49.9898398,14.4907623
 "Eumseong - Geumwang, South Korea","1356 Daegeum-ro, Eumseong-gun 27638 Gamgok-myeon",Eumseong,Chungcheongbuk,South Korea,8,250.0,151,2023-03-10,36.985529,127.583869
 "Mantorp, Sweden",Runvägen 2,Mantorp,Östergötland,Sweden,40,250.0,94,2023-03-31,58.365742,15.29407
 "Southaven, MS",150 Goodman Rd W,Southaven,MS,USA,8,250.0,98,2023-05-17,34.963441,-89.99184
@@ -4585,7 +4535,6 @@ Langfang - Gu'an Shangpin Aigou City Plaza. China,"B2, G/F, Shangpin Aigo City P
 "Val-de-Meuse, France","Route d'Avrecourt, D132, A31",Val-de-Meuse,Grand Est,France,16,250.0,355,2017-07-08,47.99147,5.51296
 "Laxou, France",Rue de la Sapinière,Laxou,Grand Est,France,28,250.0,352,2022-01-26,48.691333,6.127778
 "Paris-- Val dEurope Centre Tesla, France",Av. Johannes Gutenberg,Bailly-Romainvilliers,Île-de-France,France,16,250.0,128,2022-11-07,48.83624,2.799896
-"Györ, Hungary",Gy?rújbarát,Györ,Western Transdanubia,Hungary,12,250.0,115,2017-12-19,47.633274,17.660977
 "Debrecen, Hungary",Kishatár utca 1.,Debrecen,Northern Great Plain,Hungary,8,125.0,112,2019-12-13,47.541266,21.583575
 "Bettendorf, IA",4850 Competition Dr,Bettendorf,IA,USA,12,250.0,224,2023-05-26,41.591965,-90.462753
 "Mondovì, Italy","Piazza Cerea 15, Mondovicino Shopping Center",Mondovì,Piedmont,Italy,12,250.0,386,2023-03-08,44.420085,7.850088
