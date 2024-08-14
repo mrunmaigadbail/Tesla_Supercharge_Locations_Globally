@@ -8,6 +8,7 @@ const ids = [];
 const labels = [];
 const parents = [];
 const hovertexts = [];
+const chartLabel = 'Tesla <br> Superchargers';
 
 function addNode(id, label, parent, hoverText = '') {
     ids.push(id);
@@ -16,7 +17,7 @@ function addNode(id, label, parent, hoverText = '') {
     hovertexts.push(hoverText);
 }
 
-addNode('root', 'Root', '');
+addNode('root', chartLabel, '');
 
 // jsonData.forEach(entry => {
 //     const countryId = `country_${entry.Country}`;
@@ -37,13 +38,29 @@ addNode('root', 'Root', '');
 jsonData.forEach(entry => {
     const countryId = `country_${entry.Country}`;
     const stateId = `state_${entry.State}`;
-    const cityId = `city_${entry.City}`;
+    const cityId = `city_${entry.City}`;    
+    const superchargerId = `city_${entry.Supercharger}`;
     
     // Customize labels with additional information
+    // const countryLabel = `${entry.Country} `;
+    // const stateLabel = `${entry.State}`;
+    // const cityLabel = `${entry.City}`;
+    // const cityHoverText = `Stalls: ${entry.stalls}`;
+
     const countryLabel = `${entry.Country} `;
-    const stateLabel = `${entry.State}`;
-    const cityLabel = `${entry.City}`;
-    const cityHoverText = `Stalls: ${entry.stalls}`;
+    const stateLabel = `${entry.State.substring(0, entry.State.indexOf("_"))}`;
+    const cityLabel = `${entry.City.substring(0, entry.City.indexOf("_"))}`;    
+    const superchargerLabel = `${entry.Supercharger.substring(0, entry.Supercharger.indexOf(","))}`;
+    //const cityHoverText = `No. of Superchargers: ${entry.stalls} <extra></extra>`;
+    // let cityHoverText = `No. of Superchargers: ${entry.stalls} <extra></extra>`;
+    const superchargerHoverText = `
+Name: ${superchargerLabel} <br>
+Address: ${entry.Street_Address}, ${cityLabel}, ${stateLabel} <br>
+Stalls: ${entry.Stalls} <br>
+kW: ${entry.kW}
+<extra></extra>`;
+                        
+    //string.concat(string1, string2, ..., stringX)
 
     if (!ids.includes(countryId)) {
         addNode(countryId, countryLabel, 'root');
@@ -53,19 +70,37 @@ jsonData.forEach(entry => {
         addNode(stateId, stateLabel, countryId);
     }
 
-    addNode(cityId, cityLabel, stateId, cityHoverText);
+    if (!ids.includes(cityId)) {
+        addNode(cityId, cityLabel, stateId);
+    }
+
+    addNode(superchargerId, superchargerLabel, cityId, superchargerHoverText);
 });
 
 // Create the Plotly sunburst chart
+// const data = [{
+//     type: 'sunburst',
+//     ids: ids,
+//     labels: labels,
+//     parents: parents,
+//     text: hovertexts, // Display hover text
+//     hoverinfo: 'label+text', // Customize which information to show on hover
+//     domain: {column: 0},
+//     maxdepth: 3,
+// }];
 const data = [{
     type: 'sunburst',
     ids: ids,
     labels: labels,
     parents: parents,
-    text: hovertexts, // Display hover text
-    hoverinfo: 'label+text', // Customize which information to show on hover
+    //values: hovertexts, // Display hover text
+    hovertemplate: hovertexts, // Customize which information to show on hover
     domain: {column: 0},
-    maxdepth: 3,
+    maxdepth: 2,
+    //insidetextorientation: "radial",
+    //center: chartLabel,
+    //innerRadius: 50,
+
 }];
 
 const layout = {
@@ -73,7 +108,9 @@ const layout = {
 };
 
 Plotly.newPlot('sunburst', data, layout);
+
 });
+
 
 
 

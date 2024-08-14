@@ -20,6 +20,21 @@ sql = SQLHelper()
 def index():
    return render_template("home.html")
 
+@app.route("/dashboard")
+def dashboard():
+   return render_template("dashboard.html")
+
+@app.route("/map")
+def map():
+   return render_template("superChargerMap.html")
+
+@app.route("/api/v1/get_map_Data")   
+def get_map_Data():
+    map_Data = sql.get_map_Data()
+    data = {
+        "map_Data": map_Data
+        }
+    return jsonify(data)
 
 @app.route("/api/v1/sunburst")   
 def sunburst():
@@ -28,138 +43,70 @@ def sunburst():
         "sunburst_data": sunburst_data
         }
     return jsonify(data)
-    # def create_nested_name(data):
-    #     for entry in data['sunburst_data']:
-    #         country = entry['Country']
-    #         state = entry['State']
-    #         state = f"{state}_{country}"
-    #         city = entry['City']
-    #         city = f"{city}_{state}_{country}"
-    # nested_data = create_nested_name(data)
 
-    # # Output the result in JSON format
-    # return jsonify(nested_data)
+@app.route("/api/v1/get_dashboard/<min_stalls>/<country>/<state>")   
+def get_dashboard(min_stalls, country, state):
+    min_stalls = int(min_stalls) # cast to int
 
+    bubble_data = sql.get_bubble(min_stalls, country, state)
 
-    # # Initialize a nested dictionary
-    # def create_nested_structure(data):
-    #     countries = {}
-    #     for entry in data['sunburst_data']:
-    #         country = entry['Country']
-    #         state = entry['State']
-    #         city = entry['City']
-            
-    #         if country not in countries:
-    #             countries[country] = {"name": country, "children": []}
-            
-    #         country_node = countries[country]
-            
-    #         state_node = next((item for item in country_node["children"] if item["name"] == state), None)
-    #         if not state_node:
-    #             state_node = {"name": f"{state}_{country}", "children": []}
-    #             country_node["children"].append(state_node)
-            
-    #         state_node["children"].append({
-    #             "name": f"{city}_{state}_{country}",
-    #             "max_kw": entry["max_kw"],
-    #             "min_kw": entry["min_kw"],
-    #             "stalls": entry["stalls"]
-    #         })
-        
-    #     return list(countries.values())
+    data = {
+        "bubble_data": bubble_data,
+        }
+    return(jsonify(data))
 
-    # nested_data = create_nested_structure(data)
+# @app.route("/api/v1/get_filter_Data")   
+# def get_filter_Data():
+#     Country_State_data = sql.get_filter_Data()
+#     data = {
+#         "Country_State_data": Country_State_data
+#         }
+    
+#     # # Convert to nested JSON structure
 
-    # # Output the result in JSON format
-    # return jsonify(nested_data)
+#     # for item in Country_State_sql_data:
+#     #     country = item['Country']
+#     #     state = item['State']
+#     #     if country not in data.Country_State_data:
+#     #         data.Country_State_data[country] = {"States": []}
+#     #     data.Country_State_data[country]["States"].append(state)
 
+#     # Convert to nested JSON structure
+#     # nested_json = {}
+
+#     # for item in data:
+#     #     Country = item['Country']
+#     #     State = item['State']
+#     #     if Country not in nested_json:
+#     #         nested_json[Country] = {"States": []}
+#     #     nested_json[Country]["States"].append(State)
+
+#     # Country_State_data = {
+#     #     "Country_State_data":nested_json
+#     # }   
+
+#     return jsonify(data)
+
+# Run the App
+
+@app.route("/api/v1/get_Country_filter_Data")   
+def get_Country_filter_Data():
+    Countries = sql.get_Country_filter_Data()
+    data = {
+        "Countries": Countries
+        }
+
+    return jsonify(data)
+
+@app.route("/api/v1/get_State_filter_Data/<country>")   
+def get_State_filter_Data(country):
+    States = sql.get_State_filter_Data(country)
+    data = {
+        "States": States
+        }
+
+    return jsonify(data)
 
 # Run the App
 if __name__ == '__main__':
     app.run(debug=True)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# import sqlalchemy
-# from sqlalchemy.ext.automap import automap_base
-# from sqlalchemy.orm import Session
-# from sqlalchemy import create_engine, func, text
-# import numpy as np
-# import pandas as pd
-# import datetime as dt
-
-# from flask import Flask, jsonify
-
-# engine = create_engine("sqlite:///Tesla.sqlite")
-# # reflect an existing database into a new model
-# Base = automap_base()
-
-# # reflect the tables
-
-# Base.prepare(autoload_with=engine)
-# SuperchargeLocation = Base.classes.supercharge_locations
-
-
-
-# conn = engine.connect()
-
-# session = Session(engine)
-# #################################################
-# # Flask Setup
-# #################################################
-
-
-# app = Flask(__name__)
-
-
-# #################################################
-# # Flask Routes
-# #################################################
-# @app.route("/")
-# def welcome():
-#     """List all available api routes."""
-#     return (
-#         f"Available Routes:<br/>"
-#         f"/api/v1.0/bubble<br/>"
-      
-      
-#     )
-
-# @app.route("/api/v1.0/bubble")
-# def bubbles():
-#     results = (
-#     session.query(
-#         SuperchargeLocation.Country,
-#         func.count().label('Location_Count'),
-#         func.avg(SuperchargeLocation.Stalls).label('Average_Stalls')
-#     )
-#     .group_by(SuperchargeLocation.Country)
-#     .order_by(func.count().desc())
-#     .all()
-#         )
-#     df = pd.DataFrame(results, columns=['Country', 'Location_count', 'Average_Stalls'])
-
-#     data = df.to_dict(orient="records")
-#     return(jsonify(data))
-
-# session.close()
-
-# if __name__ == '__main__':
-#     app.run(debug=True)
-# Transform data
-    # 
