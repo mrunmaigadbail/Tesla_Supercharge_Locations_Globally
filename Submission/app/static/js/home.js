@@ -8,7 +8,8 @@ const ids = [];
 const labels = [];
 const parents = [];
 const hovertexts = [];
-const chartLabel = 'Tesla <br> Superchargers';
+const chartLabel = 'Tesla <br> Superchargers';// Intital name at center of chart
+
 
 function addNode(id, label, parent, hoverText = '') {
     ids.push(id);
@@ -17,81 +18,51 @@ function addNode(id, label, parent, hoverText = '') {
     hovertexts.push(hoverText);
 }
 
-addNode('root', chartLabel, '');
+addNode('root', chartLabel, '');//adding root node
 
-// jsonData.forEach(entry => {
-//     const countryId = `country_${entry.Country}`;
-//     const stateId = `state_${entry.State}`;
-//     const cityId = `city_${entry.City}`;
-
-//     if (!ids.includes(countryId)) {
-//         addNode(countryId, entry.Country, 'root');
-//     }
-
-//     if (!ids.includes(stateId)) {
-//         addNode(stateId, entry.State, countryId);
-//     }
-
-//     addNode(cityId, entry.City, stateId);
-// });
-
+// loop through each entry in data
 jsonData.forEach(entry => {
+    // creatin Ids
     const countryId = `country_${entry.Country}`;
     const stateId = `state_${entry.State}`;
     const cityId = `city_${entry.City}`;    
     const superchargerId = `city_${entry.Supercharger}`;
     
-    // Customize labels with additional information
-    // const countryLabel = `${entry.Country} `;
-    // const stateLabel = `${entry.State}`;
-    // const cityLabel = `${entry.City}`;
-    // const cityHoverText = `Stalls: ${entry.stalls}`;
-
+    // creating Labels
     const countryLabel = `${entry.Country} `;
-    const stateLabel = `${entry.State.substring(0, entry.State.indexOf("_"))}`;
-    const cityLabel = `${entry.City.substring(0, entry.City.indexOf("_"))}`;    
+    const stateLabel = `${entry.State.substring(0, entry.State.indexOf("_"))}`; //removeing everything after '_' which is added in sql helper city= city_state
+    const cityLabel = `${entry.City.substring(0, entry.City.indexOf("_"))}`;    //removeing everything after '_' which is added in sql helper state = state_country
     const superchargerLabel = `${entry.Supercharger.substring(0, entry.Supercharger.indexOf(","))}`;
-    //const cityHoverText = `No. of Superchargers: ${entry.stalls} <extra></extra>`;
-    // let cityHoverText = `No. of Superchargers: ${entry.stalls} <extra></extra>`;
+    
+    //hover text at each level
+    // <extra></extra> to remove extra information from hover
     const countryName = `${countryLabel}<extra></extra>`
     const stateName = `${stateLabel}<extra></extra>`
     const cityName = `${cityLabel}<extra></extra>`
-    
     const superchargerHoverText = `
-Name: ${superchargerLabel} <br>
-Address: ${entry.Street_Address}, ${cityLabel}, ${stateLabel} <br>
-Stalls: ${entry.Stalls} <br>
-kW: ${entry.kW}
-<extra></extra>`;
-                        
-    //string.concat(string1, string2, ..., stringX)
+        Name: ${superchargerLabel} <br>
+        Address: ${entry.Street_Address}, ${cityLabel}, ${stateLabel} <br>
+        Stalls: ${entry.Stalls} <br>
+        kW: ${entry.kW}<extra></extra>`;
 
+
+    // adding countries at root node
     if (!ids.includes(countryId)) {
         addNode(countryId, countryLabel, 'root', countryName);
     }
-
+    // adding states at countries node
     if (!ids.includes(stateId)) {
         addNode(stateId, stateLabel, countryId, stateName) ;
     }
-
+    //addind cities at state node
     if (!ids.includes(cityId)) {
         addNode(cityId, cityLabel, stateId, cityName);
     }
-
+    // adding superchargers at citi node
     addNode(superchargerId, superchargerLabel, cityId, superchargerHoverText);
 });
 
-// Create the Plotly sunburst chart
-// const data = [{
-//     type: 'sunburst',
-//     ids: ids,
-//     labels: labels,
-//     parents: parents,
-//     text: hovertexts, // Display hover text
-//     hoverinfo: 'label+text', // Customize which information to show on hover
-//     domain: {column: 0},
-//     maxdepth: 3,
-// }];
+// creating sunburst chart
 const data = [{
     type: 'sunburst',
     ids: ids,
